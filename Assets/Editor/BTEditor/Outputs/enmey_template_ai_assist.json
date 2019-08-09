@@ -1,0 +1,52 @@
+
+{
+    "kind" : "sequence",
+    "nodes" : [
+        {
+            "kind" : "task",
+            "method" : "tmp_set_assist_skill"
+        },
+        {
+            "kind" : "conditionselector",
+            "nodes" : [
+                {
+                    "kind" : "task",
+                    "method" : "should_attack",
+                    "arg1"   : 0.5
+                },
+                {
+                    "kind" : "sequence",
+                    "nodes" : [
+                        {
+                            "kind" : "task",
+                            "method" : "face_to_target"
+                        },
+                        {
+                            "kind" : "task",
+                            "method" : "force_attack"
+                        }
+                    ]
+                },
+                {
+                    "kind" : "sequence",
+                    "nodes" : [
+                        {
+                            "kind" : "task",
+                            "method" : "tmp_set_movement_assist_summoner"
+                        },
+                        {
+                            "kind" : "monitor",
+                            "node" : {
+                                "kind" : "task",
+                                "method" : "walk",
+                                "arg1"   : false
+                            },
+                            "revert" : "y",
+                            "method" : "should_skill_attack"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

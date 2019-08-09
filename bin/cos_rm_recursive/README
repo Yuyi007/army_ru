@@ -1,0 +1,8 @@
+
+python 2.x
+
+1.修改 app_conf.json 中的 appid和 secret_id和 secret_key
+
+2.执行 python rm_recursive.py bucketName path
+	bucketName	为path所在的bucket
+	path		为要删除的目录,如果删除bucket下所有文件,请写 /

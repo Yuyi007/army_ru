@@ -1,0 +1,93 @@
+
+{
+    "kind" : "priority",
+    "nodes" : [
+        {
+            "kind" : "task",
+            "method" : "ply_proc_player_input"
+        },
+        {
+            "kind" : "parallel",
+            "nodes" : [
+                {
+                    "kind" : "task",
+                    "method" : "ply_check_use_items"
+                },
+                {
+                    "kind" : "task",
+                    "method" : "ply_search_target"
+                },
+                {
+                    "kind" : "priority",
+                    "nodes" : [
+                        {
+                            "kind" : "sequence",
+                            "nodes" : [
+                                {
+                                    "kind" : "task",
+                                    "method" : "need_move_to_active_mission"
+                                },
+                                {
+                                    "kind" : "task",
+                                    "method" : "move_to_active_mission"
+                                },
+                                {
+                                    "kind" : "task",
+                                    "method" : "run",
+                                    "arg1"   : false
+                                }
+                            ]
+                        },
+                        {
+                            "kind" : "parallel",
+                            "nodes" : [
+                                {
+                                    "kind" : "task",
+                                    "method" : "ply_check_signals"
+                                },
+                                {
+                                    "kind" : "task",
+                                    "method" : "ply_check_wushuang_skill"
+                                },
+                                {
+                                    "kind" : "sequence",
+                                    "nodes" : [
+                                        {
+                                            "kind" : "task",
+                                            "method" : "has_target"
+                                        },
+                                        {
+                                            "kind" : "priority",
+                                            "nodes" : [
+                                                {
+                                                    "kind" : "task",
+                                                    "method" : "ply_check_assist_skill"
+                                                },
+                                                {
+                                                    "kind" : "subtree",
+                                                    "subtree" : "player_template_ai_trigger"
+                                                },
+                                                {
+                                                    "kind" : "subtree",
+                                                    "subtree" : "player_template_ai_normal_strike"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ],
+                            "failmode" : "all",
+                            "successmode" : "all",
+                            "childloopmode" : "y",
+                            "stoprunning"   : "n"
+                        }
+                    ]
+                }
+            ],
+            "failmode" : "all",
+            "successmode" : "all",
+            "childloopmode" : "y",
+            "stoprunning"   : "n"
+        }
+    ]
+}

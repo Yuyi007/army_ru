@@ -1,0 +1,45 @@
+#Provision profile UUD how to: /usr/bin/security cms -D -i ~/Projects/race/ru/certs/RaceAlliance.mobileprovision
+debug:
+  name: 荣耀飞车
+  scheme: Debug
+  plist: Info.plist
+  project: Unity-iPhone
+  loc: cn
+  build_num: 1
+  version: '1.1'
+  bundle_id: com.yousi.ra
+  provision: "723c638b-bbfc-457c-a642-ccd8056edd7a"
+  build_mode: debug
+  export_opts: ad-hoc
+  sign: "iPhone Distribution: su chen (T7DS86KKR2)"
+
+test:
+  name: 荣耀飞车
+  scheme: Release
+  plist: Info.plist
+  usage: test
+  project: Unity-iPhone
+  loc: cn
+  build_num: 1
+  version: '1.1'
+  bundle_id: com.yousi.ra
+  provision: "723c638b-bbfc-457c-a642-ccd8056edd7a"
+  build_mode: test
+  export_opts: ad-hoc
+  sign: "iPhone Distribution: su chen (T7DS86KKR2)"
+
+
+demo:
+  name: 荣耀飞车
+  scheme: Release
+  plist: Info.plist
+  usage: demo
+  project: Unity-iPhone
+  loc: cn
+  build_num: 1
+  version: '1.1'
+  bundle_id: com.yousi.ra
+  provision: "723c638b-bbfc-457c-a642-ccd8056edd7a"
+  build_mode: demo
+  export_opts: ad-hoc #appstore
+  sign: "iPhone Distribution: su chen (T7DS86KKR2)"

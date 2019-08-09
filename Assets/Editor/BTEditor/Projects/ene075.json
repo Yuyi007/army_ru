@@ -1,0 +1,341 @@
+
+{
+    "kind" : "entry",
+    "px"   : 6.0,
+    "py"   : 234.0,
+    "pw"   : 100.0,
+    "ph"   : 30.0,
+    "nodes" : [
+        {
+            "kind" : "conditionselector",
+            "px"   : 126.0,
+            "py"   : 233.0,
+            "pw"   : 100.0,
+            "ph"   : 30.0,
+            "nodes" : [
+                {
+                    "kind" : "task",
+                    "diyname" : "\u662F\u5426\u8981\u79FB\u52A8\u6765\u6FC0\u6D3Bmission",
+                    "px"      : 246.0,
+                    "py"      : 85.0,
+                    "pw"      : 100.0,
+                    "ph"      : 30.0,
+                    "method"  : "need_move_to_active_mission"
+                },
+                {
+                    "kind" : "task",
+                    "diyname" : "\u79FB\u52A8\u6FC0\u6D3B\u4E0B\u4E00\u4E2Amission",
+                    "px"      : 247.0,
+                    "py"      : 137.0,
+                    "pw"      : 100.0,
+                    "ph"      : 30.0,
+                    "method"  : "move_to_active_mission"
+                },
+                {
+                    "kind" : "sequence",
+                    "px"   : 256.0,
+                    "py"   : 231.0,
+                    "pw"   : 100.0,
+                    "ph"   : 30.0,
+                    "nodes" : [
+                        {
+                            "kind" : "task",
+                            "diyname" : "\u7D22\u654C\u8303\u56F4",
+                            "px"      : 371.0,
+                            "py"      : 176.0,
+                            "pw"      : 100.0,
+                            "ph"      : 30.0,
+                            "method"  : "set_search_range",
+                            "arg1"    : 9999.0
+                        },
+                        {
+                            "kind" : "task",
+                            "diyname" : "\u8BBE\u7F6E\u76EE\u6807",
+                            "px"      : 372.0,
+                            "py"      : 214.0,
+                            "pw"      : 100.0,
+                            "ph"      : 30.0,
+                            "method"  : "set_nearest_as_target"
+                        },
+                        {
+                            "kind" : "task",
+                            "diyname" : "\u671D\u5411\u76EE\u6807",
+                            "px"      : 373.0,
+                            "py"      : 252.0,
+                            "pw"      : 100.0,
+                            "ph"      : 30.0,
+                            "method"  : "face_to_target"
+                        },
+                        {
+                            "kind" : "loop",
+                            "px"   : 376.0,
+                            "py"   : 294.0,
+                            "pw"   : 100.0,
+                            "ph"   : 30.0,
+                            "node" : {
+                                "kind" : "conditionselector",
+                                "px"   : 499.0,
+                                "py"   : 294.0,
+                                "pw"   : 100.0,
+                                "ph"   : 30.0,
+                                "nodes" : [
+                                    {
+                                        "kind" : "task",
+                                        "diyname" : "\u8840\u91CF60%",
+                                        "px"      : 627.0,
+                                        "py"      : 219.0,
+                                        "pw"      : 100.0,
+                                        "ph"      : 30.0,
+                                        "method"  : "is_attr_in_range",
+                                        "arg1"    : "hp",
+                                        "arg2"    : 60.0,
+                                        "arg3"    : 100.0,
+                                        "arg4"    : true,
+                                        "arg5"    : true,
+                                        "arg6"    : true
+                                    },
+                                    {
+                                        "kind" : "sequence",
+                                        "px"   : 627.0,
+                                        "py"   : 263.0,
+                                        "pw"   : 100.0,
+                                        "ph"   : 30.0,
+                                        "nodes" : [
+                                            {
+                                                "kind" : "randomselector",
+                                                "px"   : 751.0,
+                                                "py"   : 213.0,
+                                                "pw"   : 100.0,
+                                                "ph"   : 30.0,
+                                                "nodes" : [
+                                                    {
+                                                        "kind" : "task",
+                                                        "diyname" : "\u8089\u523A",
+                                                        "px"      : 910.0,
+                                                        "py"      : 179.0,
+                                                        "pw"      : 100.0,
+                                                        "ph"      : 30.0,
+                                                        "method"  : "set_skill",
+                                                        "arg1"    : "ski6300694"
+                                                    },
+                                                    {
+                                                        "kind" : "task",
+                                                        "diyname" : "\u9B42\u51FB",
+                                                        "px"      : 912.0,
+                                                        "py"      : 233.0,
+                                                        "pw"      : 100.0,
+                                                        "ph"      : 30.0,
+                                                        "method"  : "set_skill",
+                                                        "arg1"    : "ski6300693"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "kind" : "task",
+                                                "diyname" : "\u653B\u51FB",
+                                                "px"      : 752.0,
+                                                "py"      : 257.0,
+                                                "pw"      : 100.0,
+                                                "ph"      : 30.0,
+                                                "method"  : "force_attack"
+                                            },
+                                            {
+                                                "kind" : "task",
+                                                "diyname" : "\u7B49\u5F853s",
+                                                "px"      : 755.0,
+                                                "py"      : 303.0,
+                                                "pw"      : 100.0,
+                                                "ph"      : 30.0,
+                                                "method"  : "hold_place",
+                                                "arg1"    : 3.0
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "kind" : "loop",
+                                        "px"   : 627.0,
+                                        "py"   : 311.0,
+                                        "pw"   : 100.0,
+                                        "ph"   : 30.0,
+                                        "node" : {
+                                            "kind" : "conditionselector",
+                                            "px"   : 496.0,
+                                            "py"   : 417.0,
+                                            "pw"   : 100.0,
+                                            "ph"   : 30.0,
+                                            "nodes" : [
+                                                {
+                                                    "kind" : "task",
+                                                    "diyname" : "50%\u8840\u91CF",
+                                                    "px"      : 633.0,
+                                                    "py"      : 393.0,
+                                                    "pw"      : 100.0,
+                                                    "ph"      : 30.0,
+                                                    "method"  : "is_attr_in_range",
+                                                    "arg1"    : "hp",
+                                                    "arg2"    : 50.0,
+                                                    "arg3"    : 100.0,
+                                                    "arg4"    : true,
+                                                    "arg5"    : true,
+                                                    "arg6"    : true
+                                                },
+                                                {
+                                                    "kind" : "sequence",
+                                                    "px"   : 638.0,
+                                                    "py"   : 441.0,
+                                                    "pw"   : 100.0,
+                                                    "ph"   : 30.0,
+                                                    "nodes" : [
+                                                        {
+                                                            "kind" : "task",
+                                                            "diyname" : "\u53EC\u5524",
+                                                            "px"      : 779.0,
+                                                            "py"      : 400.0,
+                                                            "pw"      : 100.0,
+                                                            "ph"      : 30.0,
+                                                            "method"  : "set_skill",
+                                                            "arg1"    : "ski6300690"
+                                                        },
+                                                        {
+                                                            "kind" : "task",
+                                                            "diyname" : "\u653B\u51FB",
+                                                            "px"      : 779.0,
+                                                            "py"      : 441.0,
+                                                            "pw"      : 100.0,
+                                                            "ph"      : 30.0,
+                                                            "method"  : "force_attack"
+                                                        },
+                                                        {
+                                                            "kind" : "task",
+                                                            "diyname" : "\u7B49\u5F854s",
+                                                            "px"      : 782.0,
+                                                            "py"      : 477.0,
+                                                            "pw"      : 100.0,
+                                                            "ph"      : 30.0,
+                                                            "method"  : "hold_place",
+                                                            "arg1"    : 4.0
+                                                        },
+                                                        {
+                                                            "kind" : "task",
+                                                            "diyname" : "\u52A0buff",
+                                                            "px"      : 783.0,
+                                                            "py"      : 518.0,
+                                                            "pw"      : 100.0,
+                                                            "ph"      : 30.0,
+                                                            "method"  : "set_skill",
+                                                            "arg1"    : "ski6300695"
+                                                        },
+                                                        {
+                                                            "kind" : "task",
+                                                            "diyname" : "\u653B\u51FB",
+                                                            "px"      : 785.0,
+                                                            "py"      : 556.0,
+                                                            "pw"      : 100.0,
+                                                            "ph"      : 30.0,
+                                                            "method"  : "force_attack"
+                                                        },
+                                                        {
+                                                            "kind" : "task",
+                                                            "diyname" : "\u7B49\u5F853s",
+                                                            "px"      : 786.0,
+                                                            "py"      : 596.0,
+                                                            "pw"      : 100.0,
+                                                            "ph"      : 30.0,
+                                                            "method"  : "delay",
+                                                            "arg1"    : 3.0
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "kind" : "loop",
+                                                    "px"   : 191.0,
+                                                    "py"   : 591.0,
+                                                    "pw"   : 100.0,
+                                                    "ph"   : 30.0,
+                                                    "node" : {
+                                                        "kind" : "sequence",
+                                                        "px"   : 311.0,
+                                                        "py"   : 594.0,
+                                                        "pw"   : 100.0,
+                                                        "ph"   : 30.0,
+                                                        "nodes" : [
+                                                            {
+                                                                "kind" : "weightselector",
+                                                                "px"   : 430.0,
+                                                                "py"   : 559.0,
+                                                                "pw"   : 100.0,
+                                                                "ph"   : 30.0,
+                                                                "nodes" : [
+                                                                    {
+                                                                        "kind" : "task",
+                                                                        "diyname" : "\u566C\u9B42",
+                                                                        "weight"  : "50",
+                                                                        "px"      : 560.0,
+                                                                        "py"      : 522.0,
+                                                                        "pw"      : 100.0,
+                                                                        "ph"      : 30.0,
+                                                                        "method"  : "set_skill",
+                                                                        "arg1"    : "ski6300691"
+                                                                    },
+                                                                    {
+                                                                        "kind" : "task",
+                                                                        "diyname" : "\u8089\u523A",
+                                                                        "weight"  : "40",
+                                                                        "px"      : 562.0,
+                                                                        "py"      : 564.0,
+                                                                        "pw"      : 100.0,
+                                                                        "ph"      : 30.0,
+                                                                        "method"  : "set_skill",
+                                                                        "arg1"    : "ski6300694"
+                                                                    },
+                                                                    {
+                                                                        "kind" : "task",
+                                                                        "diyname" : "\u4EBA\u8089\u51DD\u805A",
+                                                                        "weight"  : "30",
+                                                                        "px"      : 566.0,
+                                                                        "py"      : 606.0,
+                                                                        "pw"      : 100.0,
+                                                                        "ph"      : 30.0,
+                                                                        "method"  : "set_skill",
+                                                                        "arg1"    : "ski6300690"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "kind" : "task",
+                                                                "diyname" : "\u653B\u51FB",
+                                                                "px"      : 434.0,
+                                                                "py"      : 606.0,
+                                                                "pw"      : 100.0,
+                                                                "ph"      : 30.0,
+                                                                "method"  : "force_attack"
+                                                            },
+                                                            {
+                                                                "kind" : "task",
+                                                                "diyname" : "\u505C\u987F2s",
+                                                                "px"      : 435.0,
+                                                                "py"      : 654.0,
+                                                                "pw"      : 100.0,
+                                                                "ph"      : 30.0,
+                                                                "method"  : "hold_place",
+                                                                "arg1"    : 2.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "num"  : -1
+                                                }
+                                            ]
+                                        },
+                                        "num"  : -1
+                                    }
+                                ]
+                            },
+                            "num"  : -1
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "agentcategory" : "Enemy"
+}

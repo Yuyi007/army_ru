@@ -1,0 +1,20 @@
+
+{
+    "kind" : "sequence",
+    "nodes" : [
+        {
+            "kind" : "task",
+            "method" : "tmp_act_stand"
+        },
+        {
+            "kind" : "monitor",
+            "node" : {
+                "kind" : "task",
+                "method" : "hold_place",
+                "arg1"   : 1.0
+            },
+            "revert" : "y",
+            "method" : "has_target"
+        }
+    ]
+}

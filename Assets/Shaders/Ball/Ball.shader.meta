@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 2209d239931511b4e861e8fd8ebe0a50
+timeCreated: 1529566535
+licenseType: Pro
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _MainTex: {fileID: 2800000, guid: b93f998c4a999574d98b7baa3ff17b05, type: 3}
+  userData: 
+  assetBundleName: shaders/ball.ab
+  assetBundleVariant: 

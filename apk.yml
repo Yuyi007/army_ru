@@ -1,0 +1,29 @@
+debug:
+  name: 斗地主Debug
+  scheme: debug
+  skeleton: debug
+  package: com.yousi.ddz
+  use_sdcard_resource: true
+  versionCode: 1
+  versionName: '1.1'
+
+test:
+  name: 斗地主Test
+  scheme: product
+  skeleton: test
+  usage: test
+  package: com.yousi.ddz
+  versionCode: 1
+  versionName: '1.1'
+
+demo:
+  name: DDZ_Demo
+  scheme: product
+  skeleton: demo
+  usage: demo
+  package: com.yousi.ddz
+  versionCode: 1
+  versionName: '1.1'
+
+
+

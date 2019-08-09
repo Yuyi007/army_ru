@@ -1,0 +1,29 @@
+
+{
+    "kind" : "entry",
+    "px"   : 185.0,
+    "py"   : 199.0,
+    "pw"   : 100.0,
+    "ph"   : 30.0,
+    "nodes" : [
+        {
+            "kind" : "sequence",
+            "px"   : 304.0,
+            "py"   : 198.0,
+            "pw"   : 100.0,
+            "ph"   : 30.0,
+            "nodes" : [
+                {
+                    "kind" : "task",
+                    "diyname" : "hold",
+                    "px"      : 440.0,
+                    "py"      : 200.0,
+                    "pw"      : 100.0,
+                    "ph"      : 30.0,
+                    "method"  : "tmp_hold_place"
+                }
+            ]
+        }
+    ],
+    "agentcategory" : "Enemy"
+}

@@ -1,0 +1,28 @@
+
+{
+    "kind" : "sequence",
+    "nodes" : [
+        {
+            "kind" : "task",
+            "method" : "tmp_act_patrol"
+        },
+        {
+            "kind" : "task",
+            "method" : "tmp_set_movement_patrol"
+        },
+        {
+            "kind" : "monitor",
+            "node" : {
+                "kind" : "task",
+                "method" : "walk",
+                "arg1"   : false
+            },
+            "revert" : "y",
+            "method" : "has_target"
+        },
+        {
+            "kind" : "task",
+            "method" : "tmp_check_patrol"
+        }
+    ]
+}

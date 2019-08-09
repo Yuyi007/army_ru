@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1802954040, guid: 3f3e053a2d65b4eb9a9ef35566b81122, type: 3}
+  m_Name: Recommendations
+  m_EditorClassIdentifier: 
+  recent:
+  - path: Assets/Prefab/model/male001_rda001_model.prefab
+    pathLower: assets/prefab/model/male001_rda001_model.prefab
+    name: male001_rda001_model
+    nameLower: male001_rda001_model
+    id: 0
+    source: Project
+    boundariesLower: apmmrm.p
+    bitset: -2145390474
+    extensionLower: prefab
+    userScore: 0.28242943
+  - path: Assets/Scenes/ui/kfc_fuben_statistics.unity
+    pathLower: assets/scenes/ui/kfc_fuben_statistics.unity
+    name: kfc_fuben_statistics
+    nameLower: kfc_fuben_statistics
+    id: 0
+    source: Project
+    boundariesLower: asukfs.u
+    bitset: -2110207378
+    extensionLower: unity
+    userScore: 0.1350851
+  - path: Assets/Scenes/ui/kfc_fuben_statistics.unity
+    pathLower: assets/scenes/ui/kfc_fuben_statistics.unity
+    name: kfc_fuben_statistics
+    nameLower: kfc_fuben_statistics
+    id: 0
+    source: Project
+    boundariesLower: asukfs.u
+    bitset: -2110207378
+    extensionLower: unity
+    userScore: 0.18530193
+  - path: Assets/Scenes/ui/kfc_fuben_statistics.unity
+    pathLower: assets/scenes/ui/kfc_fuben_statistics.unity
+    name: kfc_fuben_statistics
+    nameLower: kfc_fuben_statistics
+    id: 0
+    source: Project
+    boundariesLower: asukfs.u
+    bitset: -2110207378
+    extensionLower: unity
+    userScore: 0.1350851
+  - path: Assets/Scenes/ui/kfc_fuben_enter.unity
+    pathLower: assets/scenes/ui/kfc_fuben_enter.unity
+    name: kfc_fuben_enter
+    nameLower: kfc_fuben_enter
+    id: 0
+    source: Project
+    boundariesLower: asukfe.u
+    bitset: -2109945234
+    extensionLower: unity
+    userScore: 0.34867835
+  - path: Assets/Prefab/ui/avatar_ui.prefab
+    pathLower: assets/prefab/ui/avatar_ui.prefab
+    name: avatar_ui
+    nameLower: avatar_ui
+    id: 0
+    source: Project
+    boundariesLower: apuau.p
+    bitset: -2139241882
+    extensionLower: prefab
+    userScore: 0.20589104
+  - path: Assets/Scenes/ui/kfc_avatar.unity
+    pathLower: assets/scenes/ui/kfc_avatar.unity
+    name: kfc_avatar
+    nameLower: kfc_avatar
+    id: 0
+    source: Project
+    boundariesLower: asuka.u
+    bitset: -2105750934
+    extensionLower: unity
+    userScore: 0.22876783
+  - path: Assets/Scenes/game/streets/cit016.unity
+    pathLower: assets/scenes/game/streets/cit016.unity
+    name: cit016
+    nameLower: cit016
+    id: 0
+    source: Project
+    boundariesLower: asgsc.u
+    bitset: 41935530
+    extensionLower: unity
+    userScore: 0.3138105
+  - path: Assets/Scenes/game/streets/cit001_1.unity
+    pathLower: assets/scenes/game/streets/cit001_1.unity
+    name: cit001_1
+    nameLower: cit001_1
+    id: 0
+    source: Project
+    boundariesLower: asgsc1.u
+    bitset: -2109742422
+    extensionLower: unity
+    userScore: 0.38742042
+  - path: Assets/Scenes/EntryPoint.unity
+    pathLower: assets/scenes/entrypoint.unity
+    name: EntryPoint
+    nameLower: entrypoint
+    id: 0
+    source: Project
+    boundariesLower: asep.u
+    bitset: 37601834
+    extensionLower: unity
+    userScore: 0.43046713
+  - path: Assets/Scenes/EntryPoint.unity
+    pathLower: assets/scenes/entrypoint.unity
+    name: EntryPoint
+    nameLower: entrypoint
+    id: 0
+    source: Project
+    boundariesLower: asep.u
+    bitset: 37601834
+    extensionLower: unity
+    userScore: 0.5314409
+  - path: Assets/Scenes/game/login.unity
+    pathLower: assets/scenes/game/login.unity
+    name: login
+    nameLower: login
+    id: 0
+    source: Project
+    boundariesLower: asgl.u
+    bitset: 37286570
+    extensionLower: unity
+    userScore: 0.5904899
+  - path: Assets/Models/streets/gy_Models/ite_tianqiao001.FBX
+    pathLower: assets/models/streets/gy_models/ite_tianqiao001.fbx
+    name: ite_tianqiao001
+    nameLower: ite_tianqiao001
+    id: 0
+    source: Project
+    boundariesLower: amsgmit.f
+    bitset: -2095058186
+    extensionLower: fbx
+    userScore: 0.6560999
+  - path: Assets/Model/animations/huyao001
+    pathLower: assets/model/animations/huyao001
+    name: huyao001
+    nameLower: huyao001
+    id: 0
+    source: Project
+    boundariesLower: amah
+    bitset: 37483314
+    extensionLower: 
+    userScore: 0.7289999
+  - path: Assets/Scenes/test/cit002_beifen_0927.unity
+    pathLower: assets/scenes/test/cit002_beifen_0927.unity
+    name: cit002_beifen_0927
+    nameLower: cit002_beifen_0927
+    id: 0
+    source: Project
+    boundariesLower: astcb0.u
+    bitset: -2101493138
+    extensionLower: unity
+    userScore: 0.80999994
+  - path: Assets/Scenes/game/streets/cit002.unity
+    pathLower: assets/scenes/game/streets/cit002.unity
+    name: cit002
+    nameLower: cit002
+    id: 0
+    source: Project
+    boundariesLower: asgsc.u
+    bitset: 37610154
+    extensionLower: unity
+    userScore: 0.9
+  - path: Assets/Scenes/game/streets/cit001.unity
+    pathLower: assets/scenes/game/streets/cit001.unity
+    name: cit001
+    nameLower: cit001
+    id: 0
+    source: Project
+    boundariesLower: asgsc.u
+    bitset: 37741226
+    extensionLower: unity
+    userScore: 1

@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: c832b2cc3e214fd48b758e627619ebd1
+timeCreated: 1536906887
+licenseType: Pro
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _T2D: {fileID: 2800000, guid: 43ca9a1dd6cf14c419f6fb2f3c2bc9f9, type: 3}
+  userData: 
+  assetBundleName: shaders/scene.ab
+  assetBundleVariant: 

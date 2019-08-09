@@ -1,0 +1,28 @@
+
+{
+    "kind" : "sequence",
+    "nodes" : [
+        {
+            "kind" : "task",
+            "method" : "is_summoned"
+        },
+        {
+            "kind" : "task",
+            "method" : "tmp_far_from_summoner"
+        },
+        {
+            "kind" : "task",
+            "method" : "tmp_set_movement_to_summoner"
+        },
+        {
+            "kind" : "monitor",
+            "node" : {
+                "kind" : "task",
+                "method" : "run",
+                "arg1"   : false
+            },
+            "revert" : "y",
+            "method" : "has_target"
+        }
+    ]
+}

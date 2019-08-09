@@ -1,0 +1,44 @@
+{
+    "posX": 0.0,
+    "posY": 0.0,
+    "posZ": 0.0,
+    "length": 1.0,
+    "width": 1.0,
+    "height": 1.0,
+    "quaternionX": 0.0,
+    "quaternionY": 0.0,
+    "quaternionZ": 0.0,
+    "quaternionW": 1.0,
+    "name": "barrier01",
+    "entityType": 8,
+    "cubeData": [
+        {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "length": 5.0,
+            "width": 30.0,
+            "height": 5.0,
+            "quaternionX": 0.0,
+            "quaternionY": 0.0,
+            "quaternionZ": 0.0,
+            "quaternionW": 1.0
+        },
+        {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "length": 5.0,
+            "width": 30.0,
+            "height": 5.0,
+            "quaternionX": 0.0,
+            "quaternionY": 0.7071,
+            "quaternionZ": 0.0,
+            "quaternionW": 0.7071
+        }
+    ],
+    "sphereData": [],
+    "headIndex": 0,
+    "headType": 0,
+    "tid": "bar00001"
+}

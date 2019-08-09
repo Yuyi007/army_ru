@@ -1,0 +1,183 @@
+
+{
+    "kind" : "parallel",
+    "nodes" : [
+        {
+            "kind" : "subtree",
+            "subtree" : "enemy_template_ai_search"
+        },
+        {
+            "kind" : "priority",
+            "nodes" : [
+                {
+                    "kind" : "sequence",
+                    "nodes" : [
+                        {
+                            "kind" : "inverter",
+                            "node" : {
+                                "kind" : "task",
+                                "method" : "has_target"
+                            }
+                        },
+                        {
+                            "kind" : "conditionselector",
+                            "nodes" : [
+                                {
+                                    "kind" : "task",
+                                    "method" : "need_move_to_active_mission"
+                                },
+                                {
+                                    "kind" : "subtree",
+                                    "subtree" : "move_to_next_mission"
+                                },
+                                {
+                                    "kind" : "priority",
+                                    "nodes" : [
+                                        {
+                                            "kind" : "subtree",
+                                            "subtree" : "enemy_template_ai_fellow"
+                                        },
+                                        {
+                                            "kind" : "priority",
+                                            "nodes" : [
+                                                {
+                                                    "kind" : "subtree",
+                                                    "subtree" : "enemy_template_ai_stand"
+                                                },
+                                                {
+                                                    "kind" : "subtree",
+                                                    "subtree" : "enemy_template_ai_patrol"
+                                                },
+                                                {
+                                                    "kind" : "subtree",
+                                                    "subtree" : "enemy_template_ai_rnd_walk"
+                                                },
+                                                {
+                                                    "kind" : "subtree",
+                                                    "subtree" : "enemy_template_ai_anim"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "kind" : "sequence",
+                    "nodes" : [
+                        {
+                            "kind" : "task",
+                            "method" : "has_target"
+                        },
+                        {
+                            "kind" : "priority",
+                            "nodes" : [
+                                {
+                                    "kind" : "sequence",
+                                    "nodes" : [
+                                        {
+                                            "kind" : "task",
+                                            "method" : "tmp_set_hover"
+                                        },
+                                        {
+                                            "kind" : "priority",
+                                            "nodes" : [
+                                                {
+                                                    "kind" : "sequence",
+                                                    "nodes" : [
+                                                        {
+                                                            "kind" : "task",
+                                                            "method" : "tmp_hover_test",
+                                                            "arg1"   : "away"
+                                                        },
+                                                        {
+                                                            "kind" : "subtree",
+                                                            "subtree" : "enemy_template_ai_away"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "kind" : "sequence",
+                                                    "nodes" : [
+                                                        {
+                                                            "kind" : "task",
+                                                            "method" : "tmp_hover_test",
+                                                            "arg1"   : "egar"
+                                                        },
+                                                        {
+                                                            "kind" : "subtree",
+                                                            "subtree" : "enemy_template_ai_egar"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "kind" : "subtree",
+                                    "subtree" : "enemy_template_ai_trigger"
+                                },
+                                {
+                                    "kind" : "monitor",
+                                    "node" : {
+                                        "kind" : "weightselector",
+                                        "nodes" : [
+                                            {
+                                                "kind" : "subtree",
+                                                "weight" : "strike",
+                                                "subtree" : "enemy_template_ai_strike"
+                                            },
+                                            {
+                                                "kind" : "subtree",
+                                                "weight" : "egar",
+                                                "subtree" : "enemy_template_ai_egar"
+                                            },
+                                            {
+                                                "kind" : "subtree",
+                                                "weight" : "keep",
+                                                "subtree" : "enemy_template_ai_away"
+                                            },
+                                            {
+                                                "kind" : "subtree",
+                                                "weight" : "close",
+                                                "subtree" : "enemy_template_ai_close"
+                                            },
+                                            {
+                                                "kind" : "subtree",
+                                                "weight" : "assist",
+                                                "subtree" : "enmey_template_ai_assist"
+                                            },
+                                            {
+                                                "kind" : "subtree",
+                                                "weight" : "hold",
+                                                "subtree" : "enemy_tempalte_ai_hold"
+                                            },
+                                            {
+                                                "kind" : "subtree",
+                                                "weight" : "static",
+                                                "subtree" : "enemy_template_ai_static"
+                                            }
+                                        ]
+                                    },
+                                    "revert" : "y",
+                                    "method" : "tmp_has_trigger"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "kind" : "task",
+            "method" : "tmp_check_signals"
+        }
+    ],
+    "failmode" : "all",
+    "successmode" : "all",
+    "childloopmode" : "y",
+    "stoprunning"   : "n"
+}

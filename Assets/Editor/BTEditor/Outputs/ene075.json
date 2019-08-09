@@ -1,0 +1,173 @@
+
+{
+    "kind" : "conditionselector",
+    "nodes" : [
+        {
+            "kind" : "task",
+            "method" : "need_move_to_active_mission"
+        },
+        {
+            "kind" : "task",
+            "method" : "move_to_active_mission"
+        },
+        {
+            "kind" : "sequence",
+            "nodes" : [
+                {
+                    "kind" : "task",
+                    "method" : "set_search_range",
+                    "arg1"   : 9999.0
+                },
+                {
+                    "kind" : "task",
+                    "method" : "set_nearest_as_target"
+                },
+                {
+                    "kind" : "task",
+                    "method" : "face_to_target"
+                },
+                {
+                    "kind" : "loop",
+                    "node" : {
+                        "kind" : "conditionselector",
+                        "nodes" : [
+                            {
+                                "kind" : "task",
+                                "method" : "is_attr_in_range",
+                                "arg1"   : "hp",
+                                "arg2"   : 60.0,
+                                "arg3"   : 100.0,
+                                "arg4"   : true,
+                                "arg5"   : true,
+                                "arg6"   : true
+                            },
+                            {
+                                "kind" : "sequence",
+                                "nodes" : [
+                                    {
+                                        "kind" : "randomselector",
+                                        "nodes" : [
+                                            {
+                                                "kind" : "task",
+                                                "method" : "set_skill",
+                                                "arg1"   : "ski6300694"
+                                            },
+                                            {
+                                                "kind" : "task",
+                                                "method" : "set_skill",
+                                                "arg1"   : "ski6300693"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "kind" : "task",
+                                        "method" : "force_attack"
+                                    },
+                                    {
+                                        "kind" : "task",
+                                        "method" : "hold_place",
+                                        "arg1"   : 3.0
+                                    }
+                                ]
+                            },
+                            {
+                                "kind" : "loop",
+                                "node" : {
+                                    "kind" : "conditionselector",
+                                    "nodes" : [
+                                        {
+                                            "kind" : "task",
+                                            "method" : "is_attr_in_range",
+                                            "arg1"   : "hp",
+                                            "arg2"   : 50.0,
+                                            "arg3"   : 100.0,
+                                            "arg4"   : true,
+                                            "arg5"   : true,
+                                            "arg6"   : true
+                                        },
+                                        {
+                                            "kind" : "sequence",
+                                            "nodes" : [
+                                                {
+                                                    "kind" : "task",
+                                                    "method" : "set_skill",
+                                                    "arg1"   : "ski6300690"
+                                                },
+                                                {
+                                                    "kind" : "task",
+                                                    "method" : "force_attack"
+                                                },
+                                                {
+                                                    "kind" : "task",
+                                                    "method" : "hold_place",
+                                                    "arg1"   : 4.0
+                                                },
+                                                {
+                                                    "kind" : "task",
+                                                    "method" : "set_skill",
+                                                    "arg1"   : "ski6300695"
+                                                },
+                                                {
+                                                    "kind" : "task",
+                                                    "method" : "force_attack"
+                                                },
+                                                {
+                                                    "kind" : "task",
+                                                    "method" : "delay",
+                                                    "arg1"   : 3.0
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "kind" : "loop",
+                                            "node" : {
+                                                "kind" : "sequence",
+                                                "nodes" : [
+                                                    {
+                                                        "kind" : "weightselector",
+                                                        "nodes" : [
+                                                            {
+                                                                "kind" : "task",
+                                                                "weight" : "50",
+                                                                "method" : "set_skill",
+                                                                "arg1"   : "ski6300691"
+                                                            },
+                                                            {
+                                                                "kind" : "task",
+                                                                "weight" : "40",
+                                                                "method" : "set_skill",
+                                                                "arg1"   : "ski6300694"
+                                                            },
+                                                            {
+                                                                "kind" : "task",
+                                                                "weight" : "30",
+                                                                "method" : "set_skill",
+                                                                "arg1"   : "ski6300690"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "kind" : "task",
+                                                        "method" : "force_attack"
+                                                    },
+                                                    {
+                                                        "kind" : "task",
+                                                        "method" : "hold_place",
+                                                        "arg1"   : 2.0
+                                                    }
+                                                ]
+                                            },
+                                            "num"  : -1
+                                        }
+                                    ]
+                                },
+                                "num"  : -1
+                            }
+                        ]
+                    },
+                    "num"  : -1
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: bdeb48ce6887cee469cc58a5d9f6eb1d
+timeCreated: 1531377615
+licenseType: Pro
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  userData: 
+  assetBundleName: shaders/shader_particle.ab
+  assetBundleVariant: 

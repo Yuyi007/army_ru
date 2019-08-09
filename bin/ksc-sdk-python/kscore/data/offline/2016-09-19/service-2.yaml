@@ -1,0 +1,157 @@
+---
+version: '2.0'
+metadata:
+  apiVersion: '2016-09-19'
+  endpointPrefix: offline
+  jsonVersion: '1.1'
+  serviceFullName: KSC OFFLINE Service
+  signatureVersion: v4
+  targetPrefix: offline
+  protocol: json2
+
+operations:
+  Preset:
+    name: Preset
+    http:
+      method: POST
+
+  UpdatePreset:
+    name: UpdatePreset
+    http:
+      method: POST
+
+  DelPreset:
+    name: DelPreset
+    http:
+      method: GET
+      requestUri: /
+    input:
+      shape: PresetInstance
+
+  GetPresetList:
+    name: GetPresetList
+    http:
+      method: GET
+      requestUri: /
+    input:
+      shape: GetPresetListInstance
+
+  GetPresetDetail:
+    name: GetPresetDetail
+    http:
+      method: GET
+      requestUri: /
+    input:
+      shape: PresetInstance
+
+  CreateTask:
+    name: CreateTask
+    http:
+      method: POST
+
+  DelTaskByTaskID:
+    name: DelTaskByTaskID
+    http:
+      method: GET
+      requestUri: /
+    input:
+      shape: TaskIDInstance
+
+  TopTaskByTaskID:
+    name: TopTaskByTaskID 
+    http:
+      method: GET
+      requestUri: /
+    input:
+      shape: TaskIDInstance
+
+  GetTaskList:
+    name: GetTaskList
+    http:
+      method: GET
+      requestUri: /
+    input:
+      shape: GetTaskListInstance
+
+  GetTaskByTaskID:
+    name: GetTaskByTaskID
+    http:
+      method: GET
+      requestUri: /
+    input:
+      shape: TaskIDInstance
+  
+  GetTaskMetaInfo:
+    name: GetTaskMetaInfo
+    http:
+      method: GET
+      requestUri: /
+    input:
+      shape: GetTaskByTaskIDInstance
+
+shapes:  
+  Preset:
+    type: string
+  WithDetail:
+    type: integer
+  TaskID:
+    type: string
+    min: 35
+    max: 45
+  PresetType:
+    type: string
+  Presets:
+    type: string
+  StartDate:
+    type: integer
+  EndDate:
+    type: integer
+  Marker:
+    type: integer
+  Limit:
+    type: integer
+  PresetInstance:
+    type: structure
+    members:
+      preset:
+        shape: Preset
+  GetPresetListInstance:
+    type: structure
+    members:
+      withDetail:
+        shape: WithDetail
+      presettype:
+        shape: PresetType
+      presets:
+        shape: Presets  
+  TaskIDInstance:
+    type: structure
+    members:
+      taskid:
+        shape: TaskID
+  GetTaskListInstance:
+    type: structure
+    members:
+      startdate:
+        shape: StartDate
+      enddate:
+        shape: EndDate
+      marker:
+        shape: Marker
+      limit:
+        shape: Limit
+  GetTaskByTaskIDInstance:
+    type: structure
+    members:
+      taskid:
+        shape: TaskID
+      startdate:
+        shape: StartDate
+      enddate:
+        shape: EndDate
+      marker:
+        shape: Marker
+      limit:
+        shape: Limit
+
+  

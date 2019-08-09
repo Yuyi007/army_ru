@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 40bce37ce3cc2d645901751142dae98c
+timeCreated: 1531795551
+licenseType: Pro
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  userData: 
+  assetBundleName: shaders/car.ab
+  assetBundleVariant: 

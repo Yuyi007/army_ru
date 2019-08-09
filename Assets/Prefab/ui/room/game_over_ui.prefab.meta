@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 3c2500053498645a6985e2dd5563ceb3
+timeCreated: 1558516569
+licenseType: Free
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: prefab/ui/room/game_over_ui.ab
+  assetBundleVariant: 

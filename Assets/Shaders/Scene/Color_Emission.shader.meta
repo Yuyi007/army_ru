@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: aef8f6e0d4260480e83b594bfb9b9f51
+timeCreated: 1548850230
+licenseType: Free
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  userData: 
+  assetBundleName: shaders/scene.ab
+  assetBundleVariant: 

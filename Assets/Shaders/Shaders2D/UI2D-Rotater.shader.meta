@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: f733094c0115c2f4096f39ea79a8b1f9
+timeCreated: 1540278871
+licenseType: Free
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  userData: 
+  assetBundleName: shaders/shaders2d.ab
+  assetBundleVariant: 

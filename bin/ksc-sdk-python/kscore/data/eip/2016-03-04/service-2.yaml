@@ -1,0 +1,81 @@
+---
+version: '2.0'
+metadata:
+  apiVersion: '2016-03-04'
+  endpointPrefix: eip
+  jsonVersion: '1.1'
+  serviceFullName: eip Service
+  signatureVersion: v4
+  targetPrefix: eip
+  protocol: query-json
+
+operations:
+  RegionList:
+    name: RegionList
+    http:
+      method: GET
+    input:
+      shape: Empty
+  GetLines:
+    name: GetLines
+    http:
+      method: GET
+  AllocateAddress:
+    name: AllocateAddress
+    http:
+      method: GET  
+  ReleaseAddress:
+    name: ReleaseAddress
+    http:
+      method: GET  
+  AssociateAddress:
+    name: AssociateAddress
+    http:
+      method: GET
+  DisassociateAddress:
+    name: DisassociateAddress
+    http:
+      method: GET      
+  DescribeAddresses:
+    name: DescribeAddresses
+    http:
+      method: GET
+  ModifyAddress:
+    name: ModifyAddress
+    http:
+      method: GET
+
+
+shapes:
+  Id:
+    type: string #list/map/structure
+
+  Bool:
+    type: bool
+
+  Int:
+    type: long
+
+  DataTime:
+    type: timestamp
+
+  Empty:
+    type: structure
+    members: {}
+    documentation: ""
+
+  NonEmptyString:
+    type: string
+    min: 1
+
+  Message:
+    type: string
+
+  InstanceId:
+    type: structure
+    required:
+    - id
+    members:
+      id:
+        shape: Id
+    documentation: ""

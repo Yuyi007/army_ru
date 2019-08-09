@@ -1,0 +1,67 @@
+
+{
+    "kind" : "entry",
+    "px"   : 173.0,
+    "py"   : 437.0,
+    "pw"   : 100.0,
+    "ph"   : 30.0,
+    "nodes" : [
+        {
+            "kind" : "sequence",
+            "px"   : 308.0,
+            "py"   : 438.0,
+            "pw"   : 100.0,
+            "ph"   : 30.0,
+            "nodes" : [
+                {
+                    "kind" : "task",
+                    "diyname" : "enable?",
+                    "px"      : 439.0,
+                    "py"      : 377.0,
+                    "pw"      : 100.0,
+                    "ph"      : 30.0,
+                    "method"  : "tmp_act_patrol"
+                },
+                {
+                    "kind" : "task",
+                    "diyname" : "\u8BBE\u7F6E\u79FB\u52A8\u5230\u5DE1\u903B\u76EE\u6807\u70B9",
+                    "px"      : 437.0,
+                    "py"      : 422.0,
+                    "pw"      : 100.0,
+                    "ph"      : 30.0,
+                    "method"  : "tmp_set_movement_patrol"
+                },
+                {
+                    "kind" : "monitor",
+                    "diyname" : "\u6CA1\u6709\u76EE\u6807",
+                    "px"      : 439.0,
+                    "py"      : 464.0,
+                    "pw"      : 100.0,
+                    "ph"      : 30.0,
+                    "node"    : {
+                        "kind" : "task",
+                        "diyname" : "\u8D70\u5440",
+                        "px"      : 554.0,
+                        "py"      : 464.0,
+                        "pw"      : 100.0,
+                        "ph"      : 30.0,
+                        "method"  : "walk",
+                        "arg1"    : false
+                    },
+                    "revert"  : "y",
+                    "method"  : "has_target"
+                },
+                {
+                    "kind" : "task",
+                    "diyname" : "\u68C0\u6D4B\u5DE1\u903B\u70B9\u5230\u8FBE",
+                    "px"      : 439.0,
+                    "py"      : 503.0,
+                    "pw"      : 100.0,
+                    "ph"      : 30.0,
+                    "method"  : "tmp_check_patrol"
+                }
+            ]
+        }
+    ],
+    "agentcategory" : "Enemy"
+}

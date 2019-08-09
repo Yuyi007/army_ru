@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: e0edc453391ddf8418c3975fe4809738
+timeCreated: 1539155009
+licenseType: Free
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  userData: 
+  assetBundleName: shaders/goal.ab
+  assetBundleVariant: 

@@ -1,0 +1,248 @@
+
+{
+    "kind" : "entry",
+    "px"   : 43.0,
+    "py"   : 604.0,
+    "pw"   : 100.0,
+    "ph"   : 30.0,
+    "nodes" : [
+        {
+            "kind" : "parallel",
+            "px"   : 160.0,
+            "py"   : 604.0,
+            "pw"   : 100.0,
+            "ph"   : 30.0,
+            "nodes" : [
+                {
+                    "kind" : "priority",
+                    "px"   : 290.0,
+                    "py"   : 312.0,
+                    "pw"   : 100.0,
+                    "ph"   : 30.0,
+                    "nodes" : [
+                        {
+                            "kind" : "sequence",
+                            "px"   : 429.0,
+                            "py"   : 82.0,
+                            "pw"   : 100.0,
+                            "ph"   : 30.0,
+                            "nodes" : [
+                                {
+                                    "kind" : "task",
+                                    "diyname" : "\u662F\u5B9D\u5B9D\u5417",
+                                    "px"      : 562.0,
+                                    "py"      : 57.0,
+                                    "pw"      : 100.0,
+                                    "ph"      : 30.0,
+                                    "method"  : "is_summoned"
+                                },
+                                {
+                                    "kind" : "task",
+                                    "diyname" : "\u68C0\u67E5\u6709buff\u7684\u76EE\u6807",
+                                    "px"      : 566.0,
+                                    "py"      : 100.0,
+                                    "pw"      : 100.0,
+                                    "ph"      : 30.0,
+                                    "method"  : "tmp_set_buffor_as_target"
+                                }
+                            ]
+                        },
+                        {
+                            "kind" : "sequence",
+                            "px"   : 425.0,
+                            "py"   : 239.0,
+                            "pw"   : 100.0,
+                            "ph"   : 30.0,
+                            "nodes" : [
+                                {
+                                    "kind" : "task",
+                                    "diyname" : "\u88AB\u653B\u51FB",
+                                    "px"      : 581.0,
+                                    "py"      : 181.0,
+                                    "pw"      : 100.0,
+                                    "ph"      : 30.0,
+                                    "method"  : "is_attacked"
+                                },
+                                {
+                                    "kind" : "task",
+                                    "diyname" : "\u5168\u5C4F\u7D22\u654C",
+                                    "px"      : 580.0,
+                                    "py"      : 216.0,
+                                    "pw"      : 100.0,
+                                    "ph"      : 30.0,
+                                    "method"  : "set_search_range",
+                                    "arg1"    : 999.0
+                                },
+                                {
+                                    "kind" : "task",
+                                    "diyname" : "\u653B\u51FB\u8005\u4E3A\u76EE\u6807",
+                                    "px"      : 581.0,
+                                    "py"      : 258.0,
+                                    "pw"      : 100.0,
+                                    "ph"      : 30.0,
+                                    "method"  : "tmp_set_attacker_as_target_probably"
+                                },
+                                {
+                                    "kind" : "task",
+                                    "diyname" : "\u6E05\u9664\u653B\u51FB\u8005",
+                                    "px"      : 577.0,
+                                    "py"      : 297.0,
+                                    "pw"      : 100.0,
+                                    "ph"      : 30.0,
+                                    "method"  : "clear_last_attacker"
+                                }
+                            ]
+                        },
+                        {
+                            "kind" : "sequence",
+                            "px"   : 425.0,
+                            "py"   : 385.0,
+                            "pw"   : 100.0,
+                            "ph"   : 30.0,
+                            "nodes" : [
+                                {
+                                    "kind" : "task",
+                                    "diyname" : "\u6709\u76EE\u6807",
+                                    "px"      : 581.0,
+                                    "py"      : 375.0,
+                                    "pw"      : 100.0,
+                                    "ph"      : 30.0,
+                                    "method"  : "has_target"
+                                },
+                                {
+                                    "kind" : "inverter",
+                                    "px"   : 580.0,
+                                    "py"   : 408.0,
+                                    "pw"   : 100.0,
+                                    "ph"   : 30.0,
+                                    "node" : {
+                                        "kind" : "task",
+                                        "diyname" : "\u76EE\u6807\u6B7B\u4EA1",
+                                        "px"      : 695.0,
+                                        "py"      : 407.0,
+                                        "pw"      : 100.0,
+                                        "ph"      : 30.0,
+                                        "method"  : "is_target_dead"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "kind" : "conditionselector",
+                            "px"   : 430.0,
+                            "py"   : 491.0,
+                            "pw"   : 100.0,
+                            "ph"   : 30.0,
+                            "nodes" : [
+                                {
+                                    "kind" : "task",
+                                    "diyname" : "\u662F\u53EC\u5524\u5B9D\u5B9D\u5417",
+                                    "px"      : 580.0,
+                                    "py"      : 453.0,
+                                    "pw"      : 100.0,
+                                    "ph"      : 30.0,
+                                    "method"  : "is_summoned"
+                                },
+                                {
+                                    "kind" : "task",
+                                    "diyname" : "\u4E3A\u5B9D\u5B9D\u641C\u7D22\u76EE\u6807",
+                                    "px"      : 583.0,
+                                    "py"      : 494.0,
+                                    "pw"      : 100.0,
+                                    "ph"      : 30.0,
+                                    "method"  : "tmp_search_summon_target"
+                                },
+                                {
+                                    "kind" : "task",
+                                    "diyname" : "\u6700\u8FD1\u4E3A\u76EE\u6807",
+                                    "px"      : 584.0,
+                                    "py"      : 533.0,
+                                    "pw"      : 100.0,
+                                    "ph"      : 30.0,
+                                    "method"  : "set_nearest_as_target"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "kind" : "sequence",
+                    "px"   : 292.0,
+                    "py"   : 604.0,
+                    "pw"   : 100.0,
+                    "ph"   : 30.0,
+                    "nodes" : [
+                        {
+                            "kind" : "task",
+                            "diyname" : "\u6709\u76EE\u6807",
+                            "px"      : 445.0,
+                            "py"      : 570.0,
+                            "pw"      : 100.0,
+                            "ph"      : 30.0,
+                            "method"  : "has_target"
+                        },
+                        {
+                            "kind" : "task",
+                            "diyname" : "\u76EE\u6807\u6B7B\u4EA1",
+                            "px"      : 445.0,
+                            "py"      : 613.0,
+                            "pw"      : 100.0,
+                            "ph"      : 30.0,
+                            "method"  : "is_target_dead"
+                        },
+                        {
+                            "kind" : "task",
+                            "diyname" : "\u6E05\u9664\u76EE\u6807",
+                            "px"      : 445.0,
+                            "py"      : 656.0,
+                            "pw"      : 100.0,
+                            "ph"      : 30.0,
+                            "method"  : "clear_target"
+                        }
+                    ]
+                },
+                {
+                    "kind" : "sequence",
+                    "px"   : 297.0,
+                    "py"   : 777.0,
+                    "pw"   : 100.0,
+                    "ph"   : 30.0,
+                    "nodes" : [
+                        {
+                            "kind" : "task",
+                            "diyname" : "\u6211\u662F\u5B9D\u5B9D",
+                            "px"      : 450.0,
+                            "py"      : 747.0,
+                            "pw"      : 100.0,
+                            "ph"      : 30.0,
+                            "method"  : "is_summoned"
+                        },
+                        {
+                            "kind" : "task",
+                            "diyname" : "\u79BB\u4E3B\u4EBA\u592A\u8FDC",
+                            "px"      : 451.0,
+                            "py"      : 778.0,
+                            "pw"      : 100.0,
+                            "ph"      : 30.0,
+                            "method"  : "tmp_far_from_summoner"
+                        },
+                        {
+                            "kind" : "task",
+                            "diyname" : "\u6E05\u9664\u76EE\u6807",
+                            "px"      : 450.0,
+                            "py"      : 811.0,
+                            "pw"      : 100.0,
+                            "ph"      : 30.0,
+                            "method"  : "clear_target"
+                        }
+                    ]
+                }
+            ],
+            "failmode" : "all",
+            "successmode" : "all",
+            "childloopmode" : "y",
+            "stoprunning"   : "n"
+        }
+    ],
+    "agentcategory" : "Enemy"
+}

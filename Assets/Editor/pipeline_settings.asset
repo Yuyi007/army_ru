@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afdf85f5b975c447a82c0edd1acf5744, type: 3}
+  m_Name: pipeline_settings
+  m_EditorClassIdentifier: 
+  CharacterPipelineMachines:
+  - LIXIAOJING-PC
+  - CHENSIHAN-PC
+  - XIAOPENG-PC
+  - WANGYANG-PC
+  - WANGXIAOYI-PC
+  ScenePipelineMachines:
+  - GAOYUAN-PC
+  - DSC-PC
+  - WXF-PC
+  - EVEPOEMAC.LOCAL
+  ParticlePipelineMachines:
+  - LISHUHAN-PC
+  - SUNWENPING-PC
+  ImportPathWatches:
+  - Assets/images
+  - Assets/Model
+  - Assets/Models/streets
+  - Assets/Particles/effects
+  - Assets/Scenes/game/streets
+  - Assets/Variants

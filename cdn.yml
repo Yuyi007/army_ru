@@ -1,0 +1,27 @@
+wenjie:
+  url: http://localhost/~wenjie/kfs
+  dst: "/Users/wenjie/Sites/kfs"
+  name: wenjie
+  ssh: true
+  local: true
+  gm: 127.0.0.1:3008
+
+
+test52:
+  url: http://192.168.105.52
+  dst: "/home/jenkins/race_update"
+  name: jenkins
+  ssh: true
+  host: 192.168.105.52
+  local: false
+  gm: 192.168.105.52:3008
+
+
+demo:
+  url: http://106.15.198.248
+  dst: "/home/jenkins/race_update"
+  name: jenkins
+  ssh: true
+  host: 106.15.198.248
+  local: false
+  gm: 106.15.198.248:3008

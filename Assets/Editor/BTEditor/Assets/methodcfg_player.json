@@ -1,0 +1,314 @@
+[
+  {
+    "name": "is_target_dead",
+    "displayname": "目标是否死亡"
+  },
+  {
+    "name": "clear_target",
+    "displayname": "清除目标"
+  },
+  {
+    "name": "set_attack_range",
+    "displayname": "设置攻击距离",
+    "arg1": "float"
+  },
+  {
+    "name": "has_target",
+    "displayname": "是否有目标"
+  },
+  {
+    "name": "set_attacker_as_target",
+    "displayname": "设置攻击者为目标"
+  },
+  {
+    "name": "is_attacked",
+    "displayname": "是否被攻击过"
+  },
+  {
+    "name": "clear_last_attacker",
+    "displayname": "清除攻击者"
+  },
+  {
+    "name": "set_search_range",
+    "displayname": "设置搜索距离",
+    "arg1": "float"
+  },
+  {
+    "name": "has_target_in_search_range",
+    "displayname": "可否搜索到目标"
+  },
+  {
+    "name": "set_hp_lowest_as_target",
+    "displayname": "血量最少为目标"
+  },
+  {
+    "name": "set_nearest_as_target",
+    "displayname": "设置最近者为目标"
+  },
+  {
+    "name": "force_idle",
+    "displayname": "停止移动"
+  },
+  {
+    "name": "hold_static",
+    "displayname": "原地不动",
+    "arg1": "float"
+  },
+  {
+    "name": "hold_place",
+    "displayname": "原地待命",
+    "arg1": "float"
+  },
+  {
+    "name": "set_random_movement",
+    "displayname": "设置随机移动",
+    "arg1": "float",
+    "arg2": "float",
+    "arg3": "float",
+    "arg4": "float"
+  },
+  {
+    "name": "walk",
+    "displayname": "走路",
+    "arg1": "bool"
+  },
+  {
+    "name": "in_side",
+    "displayname": "是否在某个side?",
+    "arg1": "float"
+  },
+  {
+    "name": "need_move_to_active_mission",
+    "displayname": "是否需要移动来激活下一个mission？"
+  },
+  {
+    "name": "move_to_active_mission",
+    "displayname": "移动到下一个mission"
+  },
+  {
+    "name": "movement_arrived",
+    "displayname": "到达移动目标点"
+  },
+  {
+    "name": "movement_set",
+    "displayname": "是否设置了移动"
+  },
+  {
+    "name": "clear_movement",
+    "displayname": "清除移动设置"
+  },
+  {
+    "name": "run",
+    "displayname": "跑动",
+    "arg1": "bool"
+  },
+  {
+    "name": "set_movement_to_target",
+    "displayname": "设置移动朝目标",
+    "arg1": "float"
+  },
+  {
+    "name": "should_skill_attack",
+    "displayname": "技能是否应该释放"
+  },
+  {
+    "name": "should_attack",
+    "displayname": "是否应该释放技能",
+    "arg1": "float"
+  },
+  {
+    "name": "is_align_target",
+    "displayname": "是否与目标对齐",
+    "arg1": "float"
+  },
+  {
+    "name": "face_to_target",
+    "displayname": "转向目标"
+  },
+  {
+    "name": "set_skill",
+    "displayname": "设置技能",
+    "arg1": "string"
+  },
+  {
+    "name": "attackable",
+    "displayname": "是否能释放技能"
+  },
+  {
+    "name": "has_force_queued",
+    "displayname": "是否有设置强制多段攻击"
+  },
+  {
+    "name": "force_queued_attack",
+    "displayname": "强制多段攻击"
+  },
+  {
+    "name": "force_attack",
+    "displayname": "强制攻击"
+  },
+  {
+    "name": "attack",
+    "displayname": "攻击"
+  },
+  {
+    "name": "delay",
+    "displayname": "延迟",
+    "arg1": "float"
+  },
+  {
+    "name": "is_attr_in_range",
+    "displayname": "属性区间判断",
+    "arg1": "string",
+    "arg2": "float",
+    "arg3": "float",
+    "arg4": "bool",
+    "arg5": "bool",
+    "arg6": "bool"
+  },
+  {
+    "name": "compare",
+    "displayname": "比较数值",
+    "arg1": "string",
+    "arg2": "string",
+    "arg3": "string"
+  },
+  {
+    "name": "assignment",
+    "displayname": "给属性或自定义变量赋值",
+    "arg1": "string",
+    "arg2": "string"
+  },
+  {
+    "name": "calculate",
+    "displayname": "计算一个表达式，然后将结果赋值给某个自定义变量",
+    "arg1": "string",
+    "arg2": "string",
+    "arg3": "string",
+    "arg4": "string"
+  },
+  {
+    "name": "enter_fight_state",
+    "displayname": "进入战斗",
+    "arg1": "string",
+    "arg2": "float"
+  },
+  {
+    "name": "set_interval",
+    "displayname": "设置定时",
+    "arg1": "string",
+    "arg2": "float"
+  },
+  {
+    "name": "clear_interval",
+    "displayname": "清除定时",
+    "arg1": "string"
+  },
+  {
+    "name": "buff_exist",
+    "displayname": "buff存在否？",
+    "arg1": "string"
+  },
+  {
+    "name": "success",
+    "displayname": "成功"
+  },
+  {
+    "name": "fail",
+    "displayname": "失败"
+  },
+  {
+    "name": "running",
+    "displayname": "运行中",
+    "arg1": "float"
+  },
+  {
+    "name": "set_movement_to_target_around",
+    "displayname": "设置移动朝目标环形区域",
+    "arg1": "float",
+    "arg2": "float",
+    "arg3": "float"
+  },
+  {
+    "name": "set_enemy_as_target_by_tid",
+    "displayname": "设置某个tid敌人为目标",
+    "arg1": "string"
+  },
+  {
+    "name": "set_movement_to_comrade",
+    "displayname": "设置移动朝资源为tid战友",
+    "arg1": "string",
+    "arg2": "float",
+    "arg3": "float"
+  },
+  {
+    "name": "is_summoned",
+    "displayname": "本单位是否是召唤出来的"
+  },
+  {
+    "name": "set_movement_to_summoner",
+    "displayname": "设置移动朝召唤出自己的单位",
+    "arg1": "float",
+    "arg2": "float"
+  },
+  {
+    "name": "random_play_anim",
+    "displayname": "随机播放动作",
+    "arg1": "string"
+  },
+  {
+    "name": "ply_has_trigger",
+    "displayname": "Ply有触发？"
+  },
+  {
+    "name": "ply_get_signaled_trigger",
+    "displayname": "Ply获取一个有信号的触发器"
+  },
+  {
+    "name": "ply_proc_player_input",
+    "displayname": "Ply玩家输入"
+  },
+  {
+    "name": "ply_check_use_items",
+    "displayname": "Ply使用药品"
+  },
+  {
+    "name": "ply_search_target",
+    "displayname": "Ply搜索目标"
+  },
+  {
+    "name": "ply_cur_sig_changed",
+    "displayname": "Ply当前的信号有变？"
+  },
+  {
+    "name": "ply_check_signals",
+    "displayname": "Ply检查并设置当前的信号"
+  },
+  {
+    "name": "ply_set_cur_trigger_skill",
+    "displayname": "Ply设置当前触发的技能"
+  },
+  {
+    "name": "ply_trigger_queued_attack",
+    "displayname": "Ply触发连续攻击"
+  },
+  {
+    "name": "ply_trigger_attack",
+    "displayname": "Ply单一攻击"
+  },
+  {
+    "name": "ply_queued_attack",
+    "displayname": "ply普通的多段攻击"
+  },
+  {
+    "name": "ply_check_assist_skill",
+    "displayname": "ply检测释放助战技能"
+  },
+  {
+    "name": "ply_check_wushuang_skill",
+    "displayname": "ply检测释放无双技能"
+  },
+  {
+    "name": "ply_set_normal_skills",
+    "displayname": "ply过滤出当前可用的技能序列"
+  }
+]

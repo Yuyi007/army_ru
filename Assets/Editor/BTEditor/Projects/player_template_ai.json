@@ -1,0 +1,191 @@
+
+{
+    "kind" : "entry",
+    "px"   : 76.0,
+    "py"   : 470.0,
+    "pw"   : 100.0,
+    "ph"   : 30.0,
+    "nodes" : [
+        {
+            "kind" : "priority",
+            "px"   : 220.0,
+            "py"   : 470.0,
+            "pw"   : 100.0,
+            "ph"   : 30.0,
+            "nodes" : [
+                {
+                    "kind" : "task",
+                    "diyname" : "\u73A9\u5BB6\u8F93\u5165\u8DF3\u51FA",
+                    "px"      : 341.0,
+                    "py"      : 386.0,
+                    "pw"      : 100.0,
+                    "ph"      : 30.0,
+                    "method"  : "ply_proc_player_input"
+                },
+                {
+                    "kind" : "parallel",
+                    "px"   : 339.0,
+                    "py"   : 527.0,
+                    "pw"   : 100.0,
+                    "ph"   : 30.0,
+                    "nodes" : [
+                        {
+                            "kind" : "task",
+                            "diyname" : "\u68C0\u67E5\u4F7F\u7528\u836F\u54C1",
+                            "px"      : 470.0,
+                            "py"      : 447.0,
+                            "pw"      : 100.0,
+                            "ph"      : 30.0,
+                            "method"  : "ply_check_use_items"
+                        },
+                        {
+                            "kind" : "task",
+                            "diyname" : "\u641C\u5BFB\u76EE\u6807",
+                            "px"      : 471.0,
+                            "py"      : 497.0,
+                            "pw"      : 100.0,
+                            "ph"      : 30.0,
+                            "method"  : "ply_search_target"
+                        },
+                        {
+                            "kind" : "priority",
+                            "px"   : 473.0,
+                            "py"   : 565.0,
+                            "pw"   : 100.0,
+                            "ph"   : 30.0,
+                            "nodes" : [
+                                {
+                                    "kind" : "sequence",
+                                    "px"   : 615.0,
+                                    "py"   : 457.0,
+                                    "pw"   : 100.0,
+                                    "ph"   : 30.0,
+                                    "nodes" : [
+                                        {
+                                            "kind" : "task",
+                                            "diyname" : "\u6FC0\u6D3B\u5173\u5361?",
+                                            "px"      : 734.0,
+                                            "py"      : 402.0,
+                                            "pw"      : 100.0,
+                                            "ph"      : 30.0,
+                                            "method"  : "need_move_to_active_mission"
+                                        },
+                                        {
+                                            "kind" : "task",
+                                            "diyname" : "\u79FB\u52A8\u5230\u5173\u5361",
+                                            "px"      : 732.0,
+                                            "py"      : 453.0,
+                                            "pw"      : 100.0,
+                                            "ph"      : 30.0,
+                                            "method"  : "move_to_active_mission"
+                                        },
+                                        {
+                                            "kind" : "task",
+                                            "diyname" : "\u8DD1",
+                                            "px"      : 732.0,
+                                            "py"      : 500.0,
+                                            "pw"      : 100.0,
+                                            "ph"      : 30.0,
+                                            "method"  : "run",
+                                            "arg1"    : false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "kind" : "parallel",
+                                    "px"   : 625.0,
+                                    "py"   : 631.0,
+                                    "pw"   : 100.0,
+                                    "ph"   : 30.0,
+                                    "nodes" : [
+                                        {
+                                            "kind" : "task",
+                                            "diyname" : "\u68C0\u67E5\u89E6\u53D1\u4FE1\u53F7",
+                                            "px"      : 757.0,
+                                            "py"      : 572.0,
+                                            "pw"      : 100.0,
+                                            "ph"      : 30.0,
+                                            "method"  : "ply_check_signals"
+                                        },
+                                        {
+                                            "kind" : "task",
+                                            "diyname" : "\u68C0\u67E5\u65E0\u53CC",
+                                            "px"      : 758.0,
+                                            "py"      : 612.0,
+                                            "pw"      : 100.0,
+                                            "ph"      : 30.0,
+                                            "method"  : "ply_check_wushuang_skill"
+                                        },
+                                        {
+                                            "kind" : "sequence",
+                                            "px"   : 760.0,
+                                            "py"   : 696.0,
+                                            "pw"   : 100.0,
+                                            "ph"   : 30.0,
+                                            "nodes" : [
+                                                {
+                                                    "kind" : "task",
+                                                    "diyname" : "\u6709\u76EE\u6807\uFF1F",
+                                                    "px"      : 887.0,
+                                                    "py"      : 670.0,
+                                                    "pw"      : 100.0,
+                                                    "ph"      : 30.0,
+                                                    "method"  : "has_target"
+                                                },
+                                                {
+                                                    "kind" : "priority",
+                                                    "px"   : 887.0,
+                                                    "py"   : 716.0,
+                                                    "pw"   : 100.0,
+                                                    "ph"   : 30.0,
+                                                    "nodes" : [
+                                                        {
+                                                            "kind" : "task",
+                                                            "diyname" : "\u68C0\u67E5\u52A9\u6218",
+                                                            "px"      : 1015.0,
+                                                            "py"      : 679.0,
+                                                            "pw"      : 100.0,
+                                                            "ph"      : 30.0,
+                                                            "method"  : "ply_check_assist_skill"
+                                                        },
+                                                        {
+                                                            "kind" : "subtree",
+                                                            "diyname" : "trigger",
+                                                            "px"      : 1014.0,
+                                                            "py"      : 716.0,
+                                                            "pw"      : 100.0,
+                                                            "ph"      : 30.0,
+                                                            "subtree" : "player_template_ai_trigger"
+                                                        },
+                                                        {
+                                                            "kind" : "subtree",
+                                                            "diyname" : "normal strike",
+                                                            "px"      : 1015.0,
+                                                            "py"      : 753.0,
+                                                            "pw"      : 100.0,
+                                                            "ph"      : 30.0,
+                                                            "subtree" : "player_template_ai_normal_strike"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "failmode" : "all",
+                                    "successmode" : "all",
+                                    "childloopmode" : "y",
+                                    "stoprunning"   : "n"
+                                }
+                            ]
+                        }
+                    ],
+                    "failmode" : "all",
+                    "successmode" : "all",
+                    "childloopmode" : "y",
+                    "stoprunning"   : "n"
+                }
+            ]
+        }
+    ],
+    "agentcategory" : "Player"
+}

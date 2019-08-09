@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 1030c3b06ea961b4ab3360e8e1805145
+timeCreated: 1534490970
+licenseType: Pro
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Tex2D: {fileID: 2800000, guid: fc402cba46d7866468b734cbe0244324, type: 3}
+  userData: 
+  assetBundleName: shaders/shader_particle.ab
+  assetBundleVariant: 

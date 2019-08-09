@@ -1,0 +1,78 @@
+
+{
+    "kind" : "entry",
+    "px"   : 192.0,
+    "py"   : 319.0,
+    "pw"   : 100.0,
+    "ph"   : 30.0,
+    "nodes" : [
+        {
+            "kind" : "sequence",
+            "px"   : 337.0,
+            "py"   : 321.0,
+            "pw"   : 100.0,
+            "ph"   : 30.0,
+            "nodes" : [
+                {
+                    "kind" : "task",
+                    "diyname" : "enable?",
+                    "px"      : 500.0,
+                    "py"      : 257.0,
+                    "pw"      : 100.0,
+                    "ph"      : 30.0,
+                    "method"  : "tmp_act_random_walk"
+                },
+                {
+                    "kind" : "task",
+                    "diyname" : "\u8BBE\u7F6E\u968F\u673A\u79FB\u52A8",
+                    "px"      : 501.0,
+                    "py"      : 304.0,
+                    "pw"      : 100.0,
+                    "ph"      : 30.0,
+                    "method"  : "tmp_set_random_movement"
+                },
+                {
+                    "kind" : "monitor",
+                    "diyname" : "\u65E0\u76EE\u6807",
+                    "px"      : 497.0,
+                    "py"      : 349.0,
+                    "pw"      : 100.0,
+                    "ph"      : 30.0,
+                    "node"    : {
+                        "kind" : "task",
+                        "diyname" : "\u8D70",
+                        "px"      : 617.0,
+                        "py"      : 348.0,
+                        "pw"      : 100.0,
+                        "ph"      : 30.0,
+                        "method"  : "walk",
+                        "arg1"    : false
+                    },
+                    "revert"  : "y",
+                    "method"  : "has_target"
+                },
+                {
+                    "kind" : "monitor",
+                    "diyname" : "\u65E0\u76EE\u6807",
+                    "px"      : 500.0,
+                    "py"      : 394.0,
+                    "pw"      : 100.0,
+                    "ph"      : 30.0,
+                    "node"    : {
+                        "kind" : "task",
+                        "diyname" : "\u539F\u5730\u5F85\u547D1S",
+                        "px"      : 616.0,
+                        "py"      : 393.0,
+                        "pw"      : 100.0,
+                        "ph"      : 30.0,
+                        "method"  : "hold_place",
+                        "arg1"    : 1.0
+                    },
+                    "revert"  : "y",
+                    "method"  : "has_target"
+                }
+            ]
+        }
+    ],
+    "agentcategory" : "Enemy"
+}

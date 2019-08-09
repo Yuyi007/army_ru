@@ -1,0 +1,39 @@
+
+{
+    "kind" : "entry",
+    "px"   : 214.0,
+    "py"   : 434.0,
+    "pw"   : 100.0,
+    "ph"   : 30.0,
+    "nodes" : [
+        {
+            "kind" : "sequence",
+            "px"   : 343.0,
+            "py"   : 434.0,
+            "pw"   : 100.0,
+            "ph"   : 30.0,
+            "nodes" : [
+                {
+                    "kind" : "task",
+                    "diyname" : "\u8BBE\u7F6E\u8FDC\u79BB",
+                    "px"      : 515.0,
+                    "py"      : 384.0,
+                    "pw"      : 100.0,
+                    "ph"      : 30.0,
+                    "method"  : "tmp_set_away_movement"
+                },
+                {
+                    "kind" : "task",
+                    "diyname" : "\u8D70",
+                    "px"      : 519.0,
+                    "py"      : 460.0,
+                    "pw"      : 100.0,
+                    "ph"      : 30.0,
+                    "method"  : "walk",
+                    "arg1"    : true
+                }
+            ]
+        }
+    ],
+    "agentcategory" : "Enemy"
+}

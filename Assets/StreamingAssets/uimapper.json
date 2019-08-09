@@ -1,0 +1,306 @@
+{
+  "prefab/ui/card/card_ui": {
+    "$root": {
+      "__buttons__": {
+        "btnSelect": "onBtnSelect"
+      },
+      "icon": "b_icon",
+      "btnSelect": "b_btnSelect"
+    }
+  },
+  "prefab/ui/common/combat_loading": {
+    "$root": {
+      "__buttons__": {
+      },
+      "loadingBg_imgBg": "b_loadingBg/b_imgBg",
+      "updateBg": "b_updateBg",
+      "loading_all": "b_loading_all",
+      "loading_all_txtLoading": "b_loading_all/b_txtLoading",
+      "loadingBg": "b_loadingBg",
+      "loading_all_txtTip": "b_loading_all/b_txtTip",
+      "loading_all_progress": "b_loading_all/b_progress"
+    },
+    "loadingBg": {
+      "__buttons__": {
+      },
+      "imgBg": "b_imgBg"
+    },
+    "loading_all": {
+      "__buttons__": {
+      },
+      "txtLoading": "b_txtLoading",
+      "txtTip": "b_txtTip",
+      "progress": "b_progress"
+    }
+  },
+  "prefab/ui/common/floating": {
+    "$root": {
+      "__buttons__": {
+      },
+      "txtContent": "b_txtContent"
+    }
+  },
+  "prefab/ui/common/floating_icon_text": {
+    "$root": {
+      "__buttons__": {
+      },
+      "color_bg2": "all/b_color_bg2",
+      "color_bg": "all/b_color_bg",
+      "txt": "all/b_txt",
+      "icon": "all/icon_mask/b_icon"
+    }
+  },
+  "prefab/ui/common/floating_ui": {
+    "$root": {
+      "__buttons__": {
+      },
+      "txtbg_frame": "b_txtbg/b_frame",
+      "txtbg": "b_txtbg",
+      "txtbg_frame_txtFloating": "b_txtbg/b_frame/b_txtFloating"
+    },
+    "txtbg": {
+      "__buttons__": {
+      },
+      "frame": "b_frame",
+      "frame_txtFloating": "b_frame/b_txtFloating"
+    }
+  },
+  "prefab/ui/common/loading_busy": {
+  },
+  "prefab/ui/common/pop_ui": {
+    "$root": {
+      "__buttons__": {
+        "btnRight": "onBtnRight",
+        "btnLeft": "onBtnLeft"
+      },
+      "btnRight": "anim_control/btns/b_btnRight",
+      "btnLeft_txt": "anim_control/btns/b_btnLeft/b_txt",
+      "btnRight_txt": "anim_control/btns/b_btnRight/b_txt",
+      "txtDesc": "anim_control/b_txtDesc",
+      "btnLeft": "anim_control/btns/b_btnLeft"
+    },
+    "btnLeft": {
+      "__buttons__": {
+      },
+      "txt": "b_txt"
+    },
+    "btnRight": {
+      "__buttons__": {
+      },
+      "txt": "b_txt"
+    }
+  },
+  "prefab/ui/room/game_over_ui": {
+    "$root": {
+      "__buttons__": {
+        "btnContinue": "onBtnContinue"
+      },
+      "display": "b_display",
+      "btnContinue": "b_btnContinue"
+    }
+  },
+  "prefab/ui/room/interactive_ui": {
+    "$root": {
+      "__buttons__": {
+        "btnDeal": "onBtnDeal",
+        "btnDisGrab": "onBtnDisGrab",
+        "btnPlay": "onBtnPlay",
+        "btnGrab": "onBtnGrab",
+        "btnPass": "onBtnPass"
+      },
+      "btnDeal": "anim_control/b_btnDeal",
+      "btnDisGrab": "anim_control/b_btnDisGrab",
+      "btnPlay": "anim_control/b_btnPlay",
+      "btnGrab": "anim_control/b_btnGrab",
+      "btnPass": "anim_control/b_btnPass"
+    }
+  },
+  "prefab/ui/room/main_room_ui": {
+    "$root": {
+      "__buttons__": {
+        "skillA": "onSkillA"
+      },
+      "point": "b_point",
+      "icon2": "b_icon2",
+      "icon1": "b_icon1",
+      "skillA": "b_skillA",
+      "icon3": "b_icon3",
+      "onSelect": "b_onSelect",
+      "icon": "b_icon",
+      "svCar": "b_svCar"
+    }
+  },
+  "prefab/ui/room/main_room_ui2": {
+    "$root": {
+      "__buttons__": {
+        "btnPVP": "onBtnPVP",
+        "btnStand": "onBtnStand"
+      },
+      "btnPVP": "b_btnPVP",
+      "btnStand": "b_btnStand"
+    }
+  },
+  "prefab/ui/room/player_ui": {
+    "$root": {
+      "__buttons__": {
+      },
+      "desk_rightpoint": "b_desk/b_rightpoint",
+      "desk_plypoint": "b_desk/b_plypoint",
+      "desk_showpoint_img2": "b_desk/b_showpoint/b_img2",
+      "me_head": "b_me/b_head",
+      "left_point": "b_left/b_point",
+      "right_qdz": "b_right/b_qdz",
+      "right_bj": "b_right/b_bj",
+      "me_bj": "b_me/b_bj",
+      "desk_showpoint": "b_desk/b_showpoint",
+      "left_qdz": "b_left/b_qdz",
+      "right": "b_right",
+      "right_pass": "b_right/b_pass",
+      "right_head": "b_right/b_head",
+      "right_score": "b_right/Score/b_score",
+      "me_point": "b_me/b_point",
+      "left_bj": "b_left/b_bj",
+      "left_pass": "b_left/b_pass",
+      "me": "b_me",
+      "desk": "b_desk",
+      "desk_showpoint_img3": "b_desk/b_showpoint/b_img3",
+      "left": "b_left",
+      "left_head": "b_left/b_head",
+      "right_point": "b_right/b_point",
+      "desk_createpoint": "b_desk/b_createpoint",
+      "me_jdz": "b_me/b_jdz",
+      "me_pass": "b_me/b_pass",
+      "me_card": "b_me/b_card",
+      "desk_leftpoint": "b_desk/b_leftpoint",
+      "right_jdz": "b_right/b_jdz",
+      "left_card": "b_left/b_card",
+      "desk_showpoint_img1": "b_desk/b_showpoint/b_img1",
+      "me_qdz": "b_me/b_qdz",
+      "left_jdz": "b_left/b_jdz",
+      "left_score": "b_left/Score/b_score",
+      "me_score": "b_me/Score/b_score",
+      "right_card": "b_right/b_card"
+    },
+    "desk": {
+      "__buttons__": {
+      },
+      "rightpoint": "b_rightpoint",
+      "plypoint": "b_plypoint",
+      "showpoint_img2": "b_showpoint/b_img2",
+      "showpoint": "b_showpoint",
+      "showpoint_img3": "b_showpoint/b_img3",
+      "createpoint": "b_createpoint",
+      "leftpoint": "b_leftpoint",
+      "showpoint_img1": "b_showpoint/b_img1"
+    },
+    "me": {
+      "__buttons__": {
+      },
+      "head": "b_head",
+      "bj": "b_bj",
+      "point": "b_point",
+      "jdz": "b_jdz",
+      "pass": "b_pass",
+      "card": "b_card",
+      "qdz": "b_qdz",
+      "score": "Score/b_score"
+    },
+    "left": {
+      "__buttons__": {
+      },
+      "point": "b_point",
+      "qdz": "b_qdz",
+      "bj": "b_bj",
+      "pass": "b_pass",
+      "head": "b_head",
+      "card": "b_card",
+      "jdz": "b_jdz",
+      "score": "Score/b_score"
+    },
+    "right": {
+      "__buttons__": {
+      },
+      "qdz": "b_qdz",
+      "bj": "b_bj",
+      "pass": "b_pass",
+      "head": "b_head",
+      "score": "Score/b_score",
+      "point": "b_point",
+      "jdz": "b_jdz",
+      "card": "b_card"
+    }
+  },
+  "prefab/ui/room/room_list_ui": {
+    "$root": {
+      "__buttons__": {
+        "btnCreate": "onBtnCreate",
+        "btnRefresh": "onBtnRefresh"
+      },
+      "btnCreate": "b_btnCreate",
+      "svRoom": "b_svRoom",
+      "btnRefresh": "b_btnRefresh"
+    }
+  },
+  "prefab/ui/room/room_slot_ui": {
+    "$root": {
+      "__buttons__": {
+        "btnJoin": "onBtnJoin"
+      },
+      "mod": "b_mod",
+      "plyNum": "b_plyNum",
+      "house": "b_house",
+      "btnJoin": "b_btnJoin"
+    }
+  },
+  "prefab/ui/room/room_ui": {
+    "$root": {
+      "__buttons__": {
+        "btnReady": "onBtnReady"
+      },
+      "py1_name": "b_py1/b_name",
+      "py2": "b_py2",
+      "py1": "b_py1",
+      "py2_ready": "b_py2/b_ready",
+      "py1_ready": "b_py1/b_ready",
+      "py3_name": "b_py3/b_name",
+      "py2_name": "b_py2/b_name",
+      "py3": "b_py3",
+      "btnReady_Txt": "b_btnReady/b_Txt",
+      "btnReady": "b_btnReady",
+      "py3_ready": "b_py3/b_ready"
+    },
+    "py1": {
+      "__buttons__": {
+      },
+      "name": "b_name",
+      "ready": "b_ready"
+    },
+    "py2": {
+      "__buttons__": {
+      },
+      "ready": "b_ready",
+      "name": "b_name"
+    },
+    "py3": {
+      "__buttons__": {
+      },
+      "name": "b_name",
+      "ready": "b_ready"
+    },
+    "btnReady": {
+      "__buttons__": {
+      },
+      "Txt": "b_Txt"
+    }
+  },
+  "prefab/ui/room/start_ui": {
+    "$root": {
+      "__buttons__": {
+        "btnone": "onBtnone",
+        "btntwo": "onBtntwo"
+      },
+      "btnone": "b_btnone",
+      "btntwo": "b_btntwo"
+    }
+  }
+}

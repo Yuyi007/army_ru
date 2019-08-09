@@ -1,0 +1,117 @@
+
+{
+    "kind" : "parallel",
+    "nodes" : [
+        {
+            "kind" : "priority",
+            "nodes" : [
+                {
+                    "kind" : "sequence",
+                    "nodes" : [
+                        {
+                            "kind" : "task",
+                            "method" : "is_summoned"
+                        },
+                        {
+                            "kind" : "task",
+                            "method" : "tmp_set_buffor_as_target"
+                        }
+                    ]
+                },
+                {
+                    "kind" : "sequence",
+                    "nodes" : [
+                        {
+                            "kind" : "task",
+                            "method" : "is_attacked"
+                        },
+                        {
+                            "kind" : "task",
+                            "method" : "set_search_range",
+                            "arg1"   : 999.0
+                        },
+                        {
+                            "kind" : "task",
+                            "method" : "tmp_set_attacker_as_target_probably"
+                        },
+                        {
+                            "kind" : "task",
+                            "method" : "clear_last_attacker"
+                        }
+                    ]
+                },
+                {
+                    "kind" : "sequence",
+                    "nodes" : [
+                        {
+                            "kind" : "task",
+                            "method" : "has_target"
+                        },
+                        {
+                            "kind" : "inverter",
+                            "node" : {
+                                "kind" : "task",
+                                "method" : "is_target_dead"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "kind" : "conditionselector",
+                    "nodes" : [
+                        {
+                            "kind" : "task",
+                            "method" : "is_summoned"
+                        },
+                        {
+                            "kind" : "task",
+                            "method" : "tmp_search_summon_target"
+                        },
+                        {
+                            "kind" : "task",
+                            "method" : "set_nearest_as_target"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "kind" : "sequence",
+            "nodes" : [
+                {
+                    "kind" : "task",
+                    "method" : "has_target"
+                },
+                {
+                    "kind" : "task",
+                    "method" : "is_target_dead"
+                },
+                {
+                    "kind" : "task",
+                    "method" : "clear_target"
+                }
+            ]
+        },
+        {
+            "kind" : "sequence",
+            "nodes" : [
+                {
+                    "kind" : "task",
+                    "method" : "is_summoned"
+                },
+                {
+                    "kind" : "task",
+                    "method" : "tmp_far_from_summoner"
+                },
+                {
+                    "kind" : "task",
+                    "method" : "clear_target"
+                }
+            ]
+        }
+    ],
+    "failmode" : "all",
+    "successmode" : "all",
+    "childloopmode" : "y",
+    "stoprunning"   : "n"
+}

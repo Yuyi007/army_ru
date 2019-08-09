@@ -1,0 +1,38 @@
+{
+    "posX": 0.0,
+    "posY": 0.0,
+    "posZ": 0.0,
+    "length": 1.0,
+    "width": 1.0,
+    "height": 1.0,
+    "quaternionX": 0.0,
+    "quaternionY": 0.0,
+    "quaternionZ": 0.0,
+    "quaternionW": 1.0,
+    "name": "car004",
+    "entityType": 1,
+    "cubeData": [],
+    "sphereData": [
+        {
+            "posX": -1.981,
+            "posY": 1.14,
+            "posZ": 0.0,
+            "radius": 2.0428
+        },
+        {
+            "posX": 0.02,
+            "posY": 1.31,
+            "posZ": 0.0,
+            "radius": 2.0038
+        },
+        {
+            "posX": 2.256,
+            "posY": 1.37,
+            "posZ": 0.0,
+            "radius": 2.0
+        }
+    ],
+    "headIndex": 0,
+    "headType": 1,
+    "tid": ""
+}

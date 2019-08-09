@@ -1,0 +1,39 @@
+
+{
+    "kind" : "entry",
+    "px"   : 101.0,
+    "py"   : 228.0,
+    "pw"   : 100.0,
+    "ph"   : 30.0,
+    "nodes" : [
+        {
+            "kind" : "sequence",
+            "px"   : 236.0,
+            "py"   : 231.0,
+            "pw"   : 100.0,
+            "ph"   : 30.0,
+            "nodes" : [
+                {
+                    "kind" : "task",
+                    "diyname" : "\u8BBE\u7F6E\u79FB",
+                    "px"      : 400.0,
+                    "py"      : 192.0,
+                    "pw"      : 100.0,
+                    "ph"      : 30.0,
+                    "method"  : "move_to_active_mission"
+                },
+                {
+                    "kind" : "task",
+                    "diyname" : "\u8DD1",
+                    "px"      : 399.0,
+                    "py"      : 277.0,
+                    "pw"      : 100.0,
+                    "ph"      : 30.0,
+                    "method"  : "run",
+                    "arg1"    : false
+                }
+            ]
+        }
+    ],
+    "agentcategory" : "Enemy"
+}

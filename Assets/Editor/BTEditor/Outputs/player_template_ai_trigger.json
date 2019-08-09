@@ -1,0 +1,61 @@
+
+{
+    "kind" : "sequence",
+    "nodes" : [
+        {
+            "kind" : "task",
+            "method" : "ply_get_signaled_trigger"
+        },
+        {
+            "kind" : "task",
+            "method" : "ply_set_cur_trigger_skill"
+        },
+        {
+            "kind" : "monitor",
+            "node" : {
+                "kind" : "conditionselector",
+                "nodes" : [
+                    {
+                        "kind" : "task",
+                        "method" : "should_skill_attack"
+                    },
+                    {
+                        "kind" : "sequence",
+                        "nodes" : [
+                            {
+                                "kind" : "task",
+                                "method" : "face_to_target"
+                            },
+                            {
+                                "kind" : "task",
+                                "method" : "ply_trigger_queued_attack"
+                            }
+                        ]
+                    },
+                    {
+                        "kind" : "sequence",
+                        "nodes" : [
+                            {
+                                "kind" : "task",
+                                "method" : "set_movement_to_target",
+                                "arg1"   : 1.0
+                            },
+                            {
+                                "kind" : "monitor",
+                                "node" : {
+                                    "kind" : "task",
+                                    "method" : "run",
+                                    "arg1"   : true
+                                },
+                                "revert" : "y",
+                                "method" : "should_skill_attack"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "revert" : "y",
+            "method" : "ply_cur_sig_changed"
+        }
+    ]
+}

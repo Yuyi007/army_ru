@@ -1,0 +1,92 @@
+
+{
+    "kind" : "sequence",
+    "nodes" : [
+        {
+            "kind" : "task",
+            "method" : "tmp_get_signaled_trigger"
+        },
+        {
+            "kind" : "task",
+            "method" : "tmp_set_cur_trigger_skill"
+        },
+        {
+            "kind" : "monitor",
+            "node" : {
+                "kind" : "conditionselector",
+                "nodes" : [
+                    {
+                        "kind" : "task",
+                        "method" : "tmp_is_trigger_skill_immediatly"
+                    },
+                    {
+                        "kind" : "sequence",
+                        "nodes" : [
+                            {
+                                "kind" : "task",
+                                "method" : "face_to_target"
+                            },
+                            {
+                                "kind" : "task",
+                                "method" : "tmp_trigger_queued_attack"
+                            }
+                        ]
+                    },
+                    {
+                        "kind" : "conditionselector",
+                        "nodes" : [
+                            {
+                                "kind" : "task",
+                                "method" : "should_skill_attack"
+                            },
+                            {
+                                "kind" : "sequence",
+                                "nodes" : [
+                                    {
+                                        "kind" : "task",
+                                        "method" : "tmp_trigger_queued_attack"
+                                    }
+                                ]
+                            },
+                            {
+                                "kind" : "conditionselector",
+                                "nodes" : [
+                                    {
+                                        "kind" : "task",
+                                        "method" : "tmp_is_cur_skill_expired"
+                                    },
+                                    {
+                                        "kind" : "task",
+                                        "method" : "tmp_clear_trigger_skill"
+                                    },
+                                    {
+                                        "kind" : "sequence",
+                                        "nodes" : [
+                                            {
+                                                "kind" : "task",
+                                                "method" : "set_movement_to_target",
+                                                "arg1"   : 1.0
+                                            },
+                                            {
+                                                "kind" : "monitor",
+                                                "node" : {
+                                                    "kind" : "task",
+                                                    "method" : "walk",
+                                                    "arg1"   : true
+                                                },
+                                                "revert" : "y",
+                                                "method" : "should_skill_attack"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "revert" : "y",
+            "method" : "tmp_cur_sig_changed"
+        }
+    ]
+}

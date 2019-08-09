@@ -1,0 +1,67 @@
+
+{
+    "kind" : "entry",
+    "px"   : 281.0,
+    "py"   : 444.0,
+    "pw"   : 100.0,
+    "ph"   : 30.0,
+    "nodes" : [
+        {
+            "kind" : "sequence",
+            "px"   : 410.0,
+            "py"   : 443.0,
+            "pw"   : 100.0,
+            "ph"   : 30.0,
+            "nodes" : [
+                {
+                    "kind" : "task",
+                    "diyname" : "summoned?",
+                    "px"      : 571.0,
+                    "py"      : 379.0,
+                    "pw"      : 100.0,
+                    "ph"      : 30.0,
+                    "method"  : "is_summoned"
+                },
+                {
+                    "kind" : "task",
+                    "diyname" : "\u79BB\u53EC\u5524\u8005\u592A\u8FDC\uFF1F",
+                    "px"      : 575.0,
+                    "py"      : 424.0,
+                    "pw"      : 100.0,
+                    "ph"      : 30.0,
+                    "method"  : "tmp_far_from_summoner"
+                },
+                {
+                    "kind" : "task",
+                    "diyname" : "\u79FB\u52A8\u671D\u53EC\u5524\u8005",
+                    "px"      : 574.0,
+                    "py"      : 465.0,
+                    "pw"      : 100.0,
+                    "ph"      : 30.0,
+                    "method"  : "tmp_set_movement_to_summoner"
+                },
+                {
+                    "kind" : "monitor",
+                    "diyname" : "\u6CA1\u76EE\u6807",
+                    "px"      : 575.0,
+                    "py"      : 512.0,
+                    "pw"      : 100.0,
+                    "ph"      : 30.0,
+                    "node"    : {
+                        "kind" : "task",
+                        "diyname" : "\u8DD1",
+                        "px"      : 686.0,
+                        "py"      : 512.0,
+                        "pw"      : 100.0,
+                        "ph"      : 30.0,
+                        "method"  : "run",
+                        "arg1"    : false
+                    },
+                    "revert"  : "y",
+                    "method"  : "has_target"
+                }
+            ]
+        }
+    ],
+    "agentcategory" : "Enemy"
+}

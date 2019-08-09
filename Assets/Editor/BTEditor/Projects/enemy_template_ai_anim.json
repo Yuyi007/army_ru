@@ -1,0 +1,57 @@
+
+{
+    "kind" : "entry",
+    "px"   : 233.0,
+    "py"   : 271.0,
+    "pw"   : 100.0,
+    "ph"   : 30.0,
+    "nodes" : [
+        {
+            "kind" : "sequence",
+            "px"   : 358.0,
+            "py"   : 271.0,
+            "pw"   : 100.0,
+            "ph"   : 30.0,
+            "nodes" : [
+                {
+                    "kind" : "task",
+                    "diyname" : "enable?",
+                    "px"      : 502.0,
+                    "py"      : 230.0,
+                    "pw"      : 100.0,
+                    "ph"      : 30.0,
+                    "method"  : "tmp_act_animation"
+                },
+                {
+                    "kind" : "task",
+                    "diyname" : "\u65F6\u95F4\u5230",
+                    "px"      : 504.0,
+                    "py"      : 270.0,
+                    "pw"      : 100.0,
+                    "ph"      : 30.0,
+                    "method"  : "tmp_time2_animate"
+                },
+                {
+                    "kind" : "monitor",
+                    "diyname" : "\u6CA1\u6709\u76EE\u6807",
+                    "px"      : 508.0,
+                    "py"      : 309.0,
+                    "pw"      : 100.0,
+                    "ph"      : 30.0,
+                    "node"    : {
+                        "kind" : "task",
+                        "diyname" : "play",
+                        "px"      : 634.0,
+                        "py"      : 308.0,
+                        "pw"      : 100.0,
+                        "ph"      : 30.0,
+                        "method"  : "tmp_play_animations"
+                    },
+                    "revert"  : "y",
+                    "method"  : "has_target"
+                }
+            ]
+        }
+    ],
+    "agentcategory" : "Enemy"
+}

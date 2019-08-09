@@ -1,0 +1,1848 @@
+fileFormatVersion: 2
+guid: fcfdd55916c7e45ca89d73e7dacda8ec
+timeCreated: 1558866084
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bei_01
+    21300002: bei_02
+    21300004: beishu_x
+    21300006: bu_01
+    21300008: bu_02
+    21300010: card_hese_2
+    21300012: card_hese_3
+    21300014: card_hese_4
+    21300016: card_hese_5
+    21300018: card_hese_6
+    21300020: card_hese_7
+    21300022: card_hese_8
+    21300024: card_hese_9
+    21300026: card_hese_10
+    21300028: card_hese_A
+    21300030: card_hese_J
+    21300032: card_hese_K
+    21300034: card_hese_Q
+    21300036: card_red_2
+    21300038: card_red_3
+    21300040: card_red_4
+    21300042: card_red_5
+    21300044: card_red_6
+    21300046: card_red_7
+    21300048: card_red_8
+    21300050: card_red_9
+    21300052: card_red_10
+    21300054: card_red_A
+    21300056: card_red_J
+    21300058: card_red_K
+    21300060: card_red_Q
+    21300062: card_white_2
+    21300064: card_white_3
+    21300066: card_white_4
+    21300068: card_white_5
+    21300070: card_white_6
+    21300072: card_white_7
+    21300074: card_white_8
+    21300076: card_white_9
+    21300078: card_white_10
+    21300080: card_white_A
+    21300082: card_white_J
+    21300084: card_white_K
+    21300086: card_white_Q
+    21300088: chao
+    21300090: chu_01
+    21300092: chu_02
+    21300094: chu_03
+    21300096: chu_04
+    21300098: di_01
+    21300100: di_02
+    21300102: fen
+    21300104: gou
+    21300106: he_0
+    21300108: he_1
+    21300110: he_2
+    21300112: he_3
+    21300114: he_4
+    21300116: he_5
+    21300118: he_6
+    21300120: he_7
+    21300122: he_8
+    21300124: he_9
+    21300126: ji
+    21300128: jia
+    21300130: jianhao
+    21300132: jiao
+    21300134: jiao_02
+    21300136: jiao_03
+    21300138: liandui
+    21300140: ming
+    21300142: note_01
+    21300144: note_02
+    21300146: or_0
+    21300148: or_1
+    21300150: or_2
+    21300152: or_3
+    21300154: or_4
+    21300156: or_5
+    21300158: or_6
+    21300160: or_7
+    21300162: or_8
+    21300164: or_9
+    21300166: pai_01
+    21300168: pai_02
+    21300170: pai_03
+    21300172: qian_01
+    21300174: qian_02
+    21300176: red_0
+    21300178: red_1
+    21300180: red_2
+    21300182: red_3
+    21300184: red_4
+    21300186: red_5
+    21300188: red_6
+    21300190: red_7
+    21300192: red_8
+    21300194: red_9
+    21300196: robote_01
+    21300198: robote_02
+    21300200: robote_03
+    21300202: robote_04
+    21300204: shi
+    21300206: shunzi
+    21300208: shuzuo
+    21300210: ti
+    21300212: ye_0
+    21300214: ye_1
+    21300216: ye_2
+    21300218: ye_3
+    21300220: ye_4
+    21300222: ye_5
+    21300224: ye_6
+    21300226: ye_7
+    21300228: ye_8
+    21300230: ye_9
+    21300232: zhu_01
+    21300234: zhu_02
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bei_01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 9
+        width: 50
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4811321}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bei_02
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 67
+        width: 50
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49019608}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: beishu_x
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 187
+        width: 29
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5344828, y: 0.5147059}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bu_01
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 429
+        width: 50
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49074075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bu_02
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 64
+        width: 50
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49074075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_hese_2
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 237
+        width: 25
+        height: 42
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_hese_3
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 284
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_hese_4
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 240
+        width: 29
+        height: 42
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_hese_5
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 139
+        width: 26
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5121951}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_hese_6
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 84
+        width: 25
+        height: 42
+      alignment: 9
+      pivot: {x: 0.52, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_hese_7
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 87
+        width: 27
+        height: 41
+      alignment: 9
+      pivot: {x: 0.4814815, y: 0.5121951}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_hese_8
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 40
+        width: 26
+        height: 42
+      alignment: 9
+      pivot: {x: 0.53846157, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_hese_9
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 43
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_hese_10
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 285
+        width: 39
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5121951}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_hese_A
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 241
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_hese_J
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 43
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5185185, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_hese_K
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 6
+        width: 28
+        height: 41
+      alignment: 9
+      pivot: {x: 0.4642857, y: 0.5121951}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_hese_Q
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 49
+        width: 28
+        height: 42
+      alignment: 9
+      pivot: {x: 0.53571427, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_red_2
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 94
+        width: 25
+        height: 41
+      alignment: 9
+      pivot: {x: 0.48, y: 0.4878049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_red_3
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 52
+        width: 26
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4878049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_red_4
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 6
+        width: 29
+        height: 41
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.4878049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_red_5
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 93
+        width: 25
+        height: 40
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_red_6
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 49
+        width: 25
+        height: 42
+      alignment: 9
+      pivot: {x: 0.52, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_red_7
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 9
+        width: 27
+        height: 41
+      alignment: 9
+      pivot: {x: 0.4814815, y: 0.4878049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_red_8
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 100
+        width: 26
+        height: 41
+      alignment: 9
+      pivot: {x: 0.53846157, y: 0.4878049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_red_9
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 43
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_red_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 180
+        width: 39
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5121951}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_red_A
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 94
+        width: 30
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4878049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_red_J
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 13
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5185185, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_red_K
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 52
+        width: 28
+        height: 41
+      alignment: 9
+      pivot: {x: 0.4642857, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_red_Q
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 95
+        width: 28
+        height: 42
+      alignment: 9
+      pivot: {x: 0.53571427, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_white_2
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 57
+        width: 25
+        height: 41
+      alignment: 9
+      pivot: {x: 0.48, y: 0.4878049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_white_3
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 14
+        width: 26
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4878049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_white_4
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 9
+        width: 29
+        height: 41
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.4878049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_white_5
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 103
+        width: 25
+        height: 40
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_white_6
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 95
+        width: 25
+        height: 42
+      alignment: 9
+      pivot: {x: 0.52, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_white_7
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 188
+        width: 27
+        height: 41
+      alignment: 9
+      pivot: {x: 0.4814815, y: 0.4878049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_white_8
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 145
+        width: 26
+        height: 41
+      alignment: 9
+      pivot: {x: 0.53846157, y: 0.4878049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_white_9
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 43
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_white_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 137
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_white_A
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 94
+        width: 30
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4878049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_white_J
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 241
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5185185, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_white_K
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 9
+        width: 28
+        height: 41
+      alignment: 9
+      pivot: {x: 0.4642857, y: 0.4878049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: card_white_Q
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 143
+        width: 28
+        height: 42
+      alignment: 9
+      pivot: {x: 0.53571427, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 377
+        width: 50
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chu_01
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 431
+        width: 50
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47115386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chu_02
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 431
+        width: 50
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4903846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chu_03
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 189
+        width: 48
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5208333, y: 0.4903846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chu_04
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 377
+        width: 50
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: di_01
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 128
+        width: 50
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49074075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: di_02
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 14
+        width: 50
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49019608}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fen
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 137
+        width: 49
+        height: 50
+      alignment: 9
+      pivot: {x: 0.48979592, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: gou
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 182
+        width: 41
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5121951, y: 0.47435898}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: he_0
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 25
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: 0.537037, y: 0.60294116}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: he_1
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 201
+        width: 24
+        height: 34
+      alignment: 9
+      pivot: {x: 0.6041667, y: 0.5441176}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: he_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 4
+        width: 26
+        height: 34
+      alignment: 9
+      pivot: {x: 0.48076922, y: 0.5735294}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: he_3
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 204
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: 0.46296296, y: 0.5882353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: he_4
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 58
+        width: 34
+        height: 34
+      alignment: 9
+      pivot: {x: 0.4852941, y: 0.5147059}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: he_5
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 205
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: 0.537037, y: 0.5294118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: he_6
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 205
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5588235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: he_7
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 168
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: 0.537037, y: 0.5882353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: he_8
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 169
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5147059}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: he_9
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 169
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: 0.46296296, y: 0.5441176}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ji
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 326
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: jia
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 129
+        width: 50
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4811321}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: jianhao
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 57
+        width: 36
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21428572}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: jiao
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 243
+        width: 48
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: jiao_02
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 378
+        width: 50
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49019608}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: jiao_03
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 379
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: liandui
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 184
+        width: 200
+        height: 148
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49324325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ming
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 130
+        width: 48
+        height: 52
+      alignment: 9
+      pivot: {x: 0.47916666, y: 0.50961536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: note_01
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 356
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: note_02
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 120
+        width: 60
+        height: 62
+      alignment: 9
+      pivot: {x: 0.475, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: or_0
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 274
+        width: 34
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5147059, y: 0.48979592}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: or_1
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 328
+        width: 32
+        height: 48
+      alignment: 9
+      pivot: {x: 0.546875, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: or_2
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 286
+        width: 35
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5113636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: or_3
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 327
+        width: 35
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5102041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: or_4
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 328
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: or_5
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 325
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: or_6
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 231
+        width: 35
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47727272}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: or_7
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 329
+        width: 34
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5147059, y: 0.4680851}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: or_8
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 332
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: or_9
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 281
+        width: 35
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47727272}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pai_01
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 431
+        width: 50
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4903846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pai_02
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 300
+        width: 50
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5092593}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pai_03
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 429
+        width: 50
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5092593}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: qian_01
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 431
+        width: 50
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47115386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: qian_02
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 325
+        width: 50
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: red_0
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 87
+        width: 33
+        height: 40
+      alignment: 9
+      pivot: {x: 0.530303, y: 0.5125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: red_1
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 61
+        width: 27
+        height: 40
+      alignment: 9
+      pivot: {x: 0.537037, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: red_2
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1
+        width: 32
+        height: 40
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: red_3
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1
+        width: 33
+        height: 40
+      alignment: 9
+      pivot: {x: 0.46969697, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: red_4
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 277
+        width: 34
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5147059, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: red_5
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1
+        width: 32
+        height: 40
+      alignment: 9
+      pivot: {x: 0.515625, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: red_6
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 93
+        width: 33
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: red_7
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 139
+        width: 35
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4878049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: red_8
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 88
+        width: 34
+        height: 40
+      alignment: 9
+      pivot: {x: 0.4852941, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: red_9
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1
+        width: 33
+        height: 40
+      alignment: 9
+      pivot: {x: 0.46969697, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: robote_01
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 280
+        width: 50
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5113636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: robote_02
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 274
+        width: 50
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45918366}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: robote_03
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 223
+        width: 50
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45918366}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: robote_04
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 223
+        width: 50
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45918366}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: shi
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 228
+        width: 50
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: shunzi
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 334
+        width: 200
+        height: 149
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4966443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: shuzuo
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 420
+        width: 62
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53174603}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ti
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 135
+        width: 50
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4903846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ye_0
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 132
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: 0.537037, y: 0.47058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ye_1
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 133
+        width: 24
+        height: 34
+      alignment: 9
+      pivot: {x: 0.6041667, y: 0.47058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ye_2
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 96
+        width: 26
+        height: 34
+      alignment: 9
+      pivot: {x: 0.48076922, y: 0.5588235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ye_3
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 133
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: 0.46296296, y: 0.47058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ye_4
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 189
+        width: 32
+        height: 37
+      alignment: 9
+      pivot: {x: 0.515625, y: 0.5135135}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ye_5
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 97
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: 0.537037, y: 0.47058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ye_6
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 97
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ye_7
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 61
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: 0.537037, y: 0.47058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ye_8
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 61
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ye_9
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 25
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: 0.46296296, y: 0.47058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: zhu_01
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 378
+        width: 50
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5, y: 0.46078432}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: zhu_02
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 378
+        width: 50
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49019608}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: images/ui/icon07.ab
+  assetBundleVariant: 

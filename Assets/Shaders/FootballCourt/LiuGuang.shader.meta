@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 8903530e9e05ebe49866a3719d973dfd
+timeCreated: 1531125909
+licenseType: Pro
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _node_5206: {fileID: 2800000, guid: ebe4332af709d744b903a62fd9950722, type: 3}
+  userData: 
+  assetBundleName: shaders/footballcourt.ab
+  assetBundleVariant: 

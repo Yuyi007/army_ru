@@ -1,0 +1,113 @@
+
+{
+    "kind" : "entry",
+    "px"   : 139.0,
+    "py"   : 460.0,
+    "pw"   : 100.0,
+    "ph"   : 30.0,
+    "nodes" : [
+        {
+            "kind" : "sequence",
+            "px"   : 277.0,
+            "py"   : 464.0,
+            "pw"   : 100.0,
+            "ph"   : 30.0,
+            "nodes" : [
+                {
+                    "kind" : "task",
+                    "diyname" : "\u8BBE\u7F6E\u6280\u80FD",
+                    "px"      : 434.0,
+                    "py"      : 406.0,
+                    "pw"      : 100.0,
+                    "ph"      : 30.0,
+                    "method"  : "ply_set_normal_skills"
+                },
+                {
+                    "kind" : "conditionselector",
+                    "px"   : 428.0,
+                    "py"   : 506.0,
+                    "pw"   : 100.0,
+                    "ph"   : 30.0,
+                    "nodes" : [
+                        {
+                            "kind" : "task",
+                            "diyname" : "\u53EF\u4EE5\u91CA\u653E",
+                            "px"      : 582.0,
+                            "py"      : 448.0,
+                            "pw"      : 100.0,
+                            "ph"      : 30.0,
+                            "method"  : "should_skill_attack"
+                        },
+                        {
+                            "kind" : "sequence",
+                            "px"   : 585.0,
+                            "py"   : 508.0,
+                            "pw"   : 100.0,
+                            "ph"   : 30.0,
+                            "nodes" : [
+                                {
+                                    "kind" : "task",
+                                    "diyname" : "\u8F6C\u5411\u76EE\u6807",
+                                    "px"      : 722.0,
+                                    "py"      : 487.0,
+                                    "pw"      : 100.0,
+                                    "ph"      : 30.0,
+                                    "method"  : "face_to_target"
+                                },
+                                {
+                                    "kind" : "task",
+                                    "diyname" : "\u653B\u51FB",
+                                    "px"      : 726.0,
+                                    "py"      : 533.0,
+                                    "pw"      : 100.0,
+                                    "ph"      : 30.0,
+                                    "method"  : "ply_queued_attack"
+                                }
+                            ]
+                        },
+                        {
+                            "kind" : "sequence",
+                            "px"   : 582.0,
+                            "py"   : 595.0,
+                            "pw"   : 100.0,
+                            "ph"   : 30.0,
+                            "nodes" : [
+                                {
+                                    "kind" : "task",
+                                    "diyname" : "\u671D\u76EE\u6807\u79FB\u52A8",
+                                    "px"      : 724.0,
+                                    "py"      : 577.0,
+                                    "pw"      : 100.0,
+                                    "ph"      : 30.0,
+                                    "method"  : "set_movement_to_target",
+                                    "arg1"    : 1.0
+                                },
+                                {
+                                    "kind" : "monitor",
+                                    "diyname" : "\u4E0D\u80FD\u91CA\u653E",
+                                    "px"      : 727.0,
+                                    "py"      : 641.0,
+                                    "pw"      : 100.0,
+                                    "ph"      : 30.0,
+                                    "node"    : {
+                                        "kind" : "task",
+                                        "diyname" : "\u8DD1",
+                                        "px"      : 841.0,
+                                        "py"      : 641.0,
+                                        "pw"      : 100.0,
+                                        "ph"      : 30.0,
+                                        "method"  : "run",
+                                        "arg1"    : true
+                                    },
+                                    "revert"  : "y",
+                                    "method"  : "should_skill_attack"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "agentcategory" : "Player"
+}

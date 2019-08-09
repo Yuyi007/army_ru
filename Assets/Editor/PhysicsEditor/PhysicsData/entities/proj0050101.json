@@ -1,0 +1,55 @@
+{
+    "posX": 0.0,
+    "posY": 0.0,
+    "posZ": 0.0,
+    "length": 1.0,
+    "width": 1.0,
+    "height": 1.0,
+    "quaternionX": 0.0,
+    "quaternionY": 0.0,
+    "quaternionZ": 0.0,
+    "quaternionW": 1.0,
+    "name": "proj0050101",
+    "entityType": 0,
+    "cubeData": [
+        {
+            "posX": -15.09,
+            "posY": 0.0,
+            "posZ": 2.63,
+            "length": 25.5649,
+            "width": 4.2,
+            "height": 4.0,
+            "quaternionX": 0.0,
+            "quaternionY": 0.1028,
+            "quaternionZ": 0.0,
+            "quaternionW": 0.9947
+        },
+        {
+            "posX": -15.04,
+            "posY": 0.0,
+            "posZ": -2.46,
+            "length": 25.5649,
+            "width": 4.2,
+            "height": 4.0,
+            "quaternionX": 0.0,
+            "quaternionY": -0.1028,
+            "quaternionZ": 0.0,
+            "quaternionW": 0.9947
+        },
+        {
+            "posX": -20.7,
+            "posY": 0.0,
+            "posZ": 0.12,
+            "length": 15.0441,
+            "width": 4.5622,
+            "height": 4.0,
+            "quaternionX": 0.0,
+            "quaternionY": 0.0,
+            "quaternionZ": 0.0,
+            "quaternionW": 1.0
+        }
+    ],
+    "sphereData": [],
+    "headIndex": 0,
+    "headType": 1
+}

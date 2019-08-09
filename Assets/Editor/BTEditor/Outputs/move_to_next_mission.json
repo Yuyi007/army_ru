@@ -1,0 +1,15 @@
+
+{
+    "kind" : "sequence",
+    "nodes" : [
+        {
+            "kind" : "task",
+            "method" : "move_to_active_mission"
+        },
+        {
+            "kind" : "task",
+            "method" : "run",
+            "arg1"   : false
+        }
+    ]
+}

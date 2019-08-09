@@ -1,0 +1,673 @@
+fileFormatVersion: 2
+guid: 1d8598be7c5af4694b7155f6f74107df
+timeCreated: 1558866919
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: HLDDZ_Anim_2x_0
+    21300002: HLDDZ_Anim_2x_1
+    21300004: HLDDZ_Anim_2x_2
+    21300006: HLDDZ_Anim_2x_3
+    21300008: HLDDZ_Anim_2x_4
+    21300010: HLDDZ_Anim_2x_5
+    21300012: HLDDZ_Anim_2x_6
+    21300014: HLDDZ_Anim_2x_7
+    21300016: HLDDZ_Anim_2x_8
+    21300018: HLDDZ_Anim_2x_9
+    21300020: HLDDZ_Anim_2x_10
+    21300022: HLDDZ_Anim_2x_11
+    21300024: HLDDZ_Anim_2x_12
+    21300026: HLDDZ_Anim_2x_13
+    21300028: HLDDZ_Anim_2x_14
+    21300030: HLDDZ_Anim_2x_15
+    21300032: HLDDZ_Anim_2x_16
+    21300034: HLDDZ_Anim_2x_17
+    21300036: HLDDZ_Anim_2x_18
+    21300038: HLDDZ_Anim_2x_19
+    21300040: HLDDZ_Anim_2x_20
+    21300042: HLDDZ_Anim_2x_21
+    21300044: HLDDZ_Anim_2x_22
+    21300046: HLDDZ_Anim_2x_23
+    21300048: HLDDZ_Anim_2x_24
+    21300050: HLDDZ_Anim_2x_25
+    21300052: HLDDZ_Anim_2x_26
+    21300054: HLDDZ_Anim_2x_27
+    21300056: HLDDZ_Anim_2x_28
+    21300058: HLDDZ_Anim_2x_29
+    21300060: HLDDZ_Anim_2x_30
+    21300062: HLDDZ_Anim_2x_31
+    21300064: HLDDZ_Anim_2x_32
+    21300066: HLDDZ_Anim_2x_33
+    21300068: HLDDZ_Anim_2x_34
+    21300070: HLDDZ_Anim_2x_35
+    21300072: HLDDZ_Anim_2x_36
+    21300074: HLDDZ_Anim_2x_37
+    21300076: HLDDZ_Anim_2x_38
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 804
+        width: 362
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_1
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 964
+        width: 150
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_2
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 962
+        width: 145
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_3
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 968
+        width: 147
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_4
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 985
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_5
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 995
+        width: 64
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_6
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 948
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_7
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 848
+        width: 109
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_8
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 844
+        width: 127
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_9
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 841
+        width: 126
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_10
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 836
+        width: 117
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 697
+        width: 110
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_12
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 652
+        width: 150
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_13
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 731
+        width: 108
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 739
+        width: 116
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_15
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 638
+        width: 195
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_16
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 696
+        width: 103
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_17
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 695
+        width: 83
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 443
+        width: 170
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_19
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 639
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_20
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 640
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_21
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 608
+        width: 193
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_22
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 507
+        width: 138
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_23
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 507
+        width: 155
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_24
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 416
+        width: 157
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_25
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 454
+        width: 179
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_26
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 492
+        width: 146
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_27
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 270
+        width: 187
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 275
+        width: 196
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_29
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 307
+        width: 216
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_30
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 345
+        width: 232
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 143
+        width: 252
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_32
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 179
+        width: 262
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_33
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 212
+        width: 256
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_34
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 140
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_35
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 134
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_36
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 136
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_37
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 128
+        width: 270
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HLDDZ_Anim_2x_38
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 134
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: images/res/hlddz_anim_2x.ab
+  assetBundleVariant: 

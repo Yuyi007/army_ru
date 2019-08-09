@@ -1,0 +1,34 @@
+
+{
+    "kind" : "sequence",
+    "nodes" : [
+        {
+            "kind" : "task",
+            "method" : "tmp_act_random_walk"
+        },
+        {
+            "kind" : "task",
+            "method" : "tmp_set_random_movement"
+        },
+        {
+            "kind" : "monitor",
+            "node" : {
+                "kind" : "task",
+                "method" : "walk",
+                "arg1"   : false
+            },
+            "revert" : "y",
+            "method" : "has_target"
+        },
+        {
+            "kind" : "monitor",
+            "node" : {
+                "kind" : "task",
+                "method" : "hold_place",
+                "arg1"   : 1.0
+            },
+            "revert" : "y",
+            "method" : "has_target"
+        }
+    ]
+}

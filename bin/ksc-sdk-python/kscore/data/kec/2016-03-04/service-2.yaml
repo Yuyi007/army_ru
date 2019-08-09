@@ -1,0 +1,88 @@
+---
+version: '2.0'
+metadata:
+  apiVersion: '2016-03-04'
+  endpointPrefix: kec
+  jsonVersion: '1.1'
+  serviceFullName: KSC VM Service
+  signatureVersion: v4
+  targetPrefix: kec
+  protocol: query-json
+
+operations:
+
+  RunInstances:
+    http:
+      method: GET
+
+  TerminateInstances:
+    http:
+      method: GET
+
+  StartInstances:
+    http:
+      method: GET
+
+  StopInstances:
+    http:
+      method: GET
+
+  RebootInstances:
+    http:
+      method: GET
+
+  MonitorInstances:
+    http:
+      method: GET
+
+  UnmonitorInstances:
+    http:
+      method: GET
+
+  ModifyInstanceType:
+    http:
+      method: GET
+
+  ModifyInstanceImage:
+    http:
+      method: GET
+
+  ModifyInstanceAttribute:
+    http:
+      method: GET
+
+  DescribeInstanceVnc:
+    http:
+      method: GET
+
+  AttachNetworkInterface:
+    http:
+      method: GET
+
+  DescribeInstances:
+    http:
+      method: GET
+
+  ModifyNetworkInterfaceAttribute:
+    http:
+      method: GET
+
+  DetachNetworkInterface:
+    http:
+      method: GET
+
+  CreateImage:
+    http:
+      method: GET
+
+  DescribeImages:
+    http:
+      method: GET
+
+  RemoveImages:
+    http:
+      method: GET
+
+  ModifyImageAttribute:
+    http:
+      method: GET

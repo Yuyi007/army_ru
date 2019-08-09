@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: d15af8902475d43809ee2fb507e51b6d
+timeCreated: 1548663787
+licenseType: Free
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  userData: 
+  assetBundleName: shaders/car.ab
+  assetBundleVariant: 

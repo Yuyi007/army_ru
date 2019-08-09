@@ -1,0 +1,23 @@
+
+{
+    "kind" : "sequence",
+    "nodes" : [
+        {
+            "kind" : "task",
+            "method" : "tmp_act_animation"
+        },
+        {
+            "kind" : "task",
+            "method" : "tmp_time2_animate"
+        },
+        {
+            "kind" : "monitor",
+            "node" : {
+                "kind" : "task",
+                "method" : "tmp_play_animations"
+            },
+            "revert" : "y",
+            "method" : "has_target"
+        }
+    ]
+}
