@@ -17,8 +17,7 @@ local scriptSearchFolders = { -- search lua script from these workspace folders
   'F:\\ShareFolder\\rs',
   'F:\\src\\rs',
   'E:\\rs',
-  '/Users/linjianfu/lcd/las',
-  '/Users/linjianfu/ddz/las',
+  '/Users/linjianfu/army/ars',
 }
 local unity = nil
 local lfs = lfs
